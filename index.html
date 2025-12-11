@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM Interactif - Histoire du Droit des Obligations</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            line-height: 1.6; 
+            background-color: #f4f4f9;
+            color: #333;
+            padding-bottom: 80px; /* Espace pour le bouton flottant */
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .question { 
+            background-color: #ffffff;
+            margin-bottom: 20px; 
+            padding: 20px; 
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-left: 5px solid #3498db;
+        }
+        .question p {
+            font-weight: bold;
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        label {
+            display: block;
+            margin: 8px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        label:hover {
+            background-color: #e2e6ea;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        /* Styles pour le feedback */
+        .feedback {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        /* Bouton fixe en bas */
+        #floating-check {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 15px 30px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: transform 0.2s;
+        }
+        #floating-check:hover {
+            background-color: #219150;
+            transform: scale(1.05);
+        }
+        
+        #result-container {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-radius: 10px;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>QCM Interactif : Histoire du Droit des Obligations</h1>
+    <div class="intro">
+        <p>Répondez aux 155 questions ci-dessous. Cliquez sur le bouton vert flottant en bas à droite pour vérifier votre score à tout moment.</p>
+    </div>
+
+    <div class="question">
+        <p>1. À partir de quel siècle le terme "obligation" apparaît-il dans la langue française ?</p>
+        <label><input type="radio" name="q1" value="12e siècle"> A) 12e siècle</label>
+        <label><input type="radio" name="q1" value="13e siècle"> B) 13e siècle</label>
+        <label><input type="radio" name="q1" value="14e siècle"> C) 14e siècle</label>
+        <label><input type="radio" name="q1" value="15e siècle"> D) 15e siècle</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>2. Quel juriste romain a défini l'obligation comme un lien astreignant une personne à transférer la propriété ou à faire quelque chose ?</p>
+        <label><input type="radio" name="q2" value="Ulpien"> A) Ulpien</label>
+        <label><input type="radio" name="q2" value="Paulus"> B) Paulus</label>
+        <label><input type="radio" name="q2" value="Justinien"> C) Justinien</label>
+        <label><input type="radio" name="q2" value="Gaius"> D) Gaius</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>3. Quel terme latin désigne le transfert de propriété dans la définition romaine de l'obligation ?</p>
+        <label><input type="radio" name="q3" value="Facere"> A) Facere</label>
+        <label><input type="radio" name="q3" value="Dare"> B) Dare</label>
+        <label><input type="radio" name="q3" value="Praestare"> C) Praestare</label>
+        <label><input type="radio" name="q3" value="Debitum"> D) Debitum</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>4. Au 19e siècle, l'obligation désigne principalement les titres négociables en raison de l'évolution de la richesse vers quoi ?</p>
+        <label><input type="radio" name="q4" value="Immobilière"> A) Immobilière</label>
+        <label><input type="radio" name="q4" value="Mobilière"> B) Mobilière</label>
+        <label><input type="radio" name="q4" value="Agricole"> C) Agricole</label>
+        <label><input type="radio" name="q4" value="Industrielle"> D) Industrielle</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>5. Quel terme désigne l'évaluation en argent du dommage avant le jugement ?</p>
+        <label><input type="radio" name="q5" value="Damnum"> A) Damnum</label>
+        <label><input type="radio" name="q5" value="Praejudicium"> B) Praejudicium</label>
+        <label><input type="radio" name="q5" value="Debitum"> C) Debitum</label>
+        <label><input type="radio" name="q5" value="Ligare"> D) Ligare</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>6. Selon Ulpien, l'obligation est un lien de droit qui apparaît dans quel document du 6e siècle ?</p>
+        <label><input type="radio" name="q6" value="La loi des 12 tables"> A) La loi des 12 tables</label>
+        <label><input type="radio" name="q6" value="La glose des Institutes de Turin"> B) La glose des Institutes de Turin</label>
+        <label><input type="radio" name="q6" value="Le Digeste"> C) Le Digeste</label>
+        <label><input type="radio" name="q6" value="Le Code"> D) Le Code</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>7. Quel auteur écrit "Conseil à un ami" et meurt en 1192, contribuant à la définition de l'obligation ?</p>
+        <label><input type="radio" name="q7" value="Pierre de Fontaine"> A) Pierre de Fontaine</label>
+        <label><input type="radio" name="q7" value="Eugène Gaudemet"> B) Eugène Gaudemet</label>
+        <label><input type="radio" name="q7" value="Paul Frédérique Girard"> C) Paul Frédérique Girard</label>
+        <label><input type="radio" name="q7" value="Édouard Cuq"> D) Édouard Cuq</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>8. Selon Eugène Gaudemet, l'obligation est "le crédit considéré au point de vue juridique". Quel est le rôle clé de l'obligation ?</p>
+        <label><input type="radio" name="q8" value="La confiance"> A) La confiance</label>
+        <label><input type="radio" name="q8" value="La violence"> B) La violence</label>
+        <label><input type="radio" name="q8" value="La réciprocité"> C) La réciprocité</label>
+        <label><input type="radio" name="q8" value="Le commerce"> D) Le commerce</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>9. Quel type d'objet d'obligation désigne une chose incertaine, comme les prises d'un pêcheur ?</p>
+        <label><input type="radio" name="q9" value="Chose certaine"> A) Chose certaine</label>
+        <label><input type="radio" name="q9" value="Chose incertaine"> B) Chose incertaine</label>
+        <label><input type="radio" name="q9" value="Somme d'argent"> C) Somme d'argent</label>
+        <label><input type="radio" name="q9" value="Abstention"> D) Abstention</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>10. Quelle différence majeure existe entre le droit des obligations et le droit des biens concernant le droit de suite ?</p>
+        <label><input type="radio" name="q10" value="Le droit des biens a un droit de suite"> A) Le droit des biens a un droit de suite</label>
+        <label><input type="radio" name="q10" value="Le droit des obligations a un droit de suite"> B) Le droit des obligations a un droit de suite</label>
+        <label><input type="radio" name="q10" value="Aucun des deux n'a de droit de suite"> C) Aucun des deux n'a de droit de suite</label>
+        <label><input type="radio" name="q10" value="Ils sont identiques"> D) Ils sont identiques</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>11. Quel type d'action romaine porte sur la responsabilité pénale et cherche à punir ?</p>
+        <label><input type="radio" name="q11" value="Action rei persecutoria"> A) Action rei persecutoria</label>
+        <label><input type="radio" name="q11" value="Action in personam pénale"> B) Action in personam pénale</label>
+        <label><input type="radio" name="q11" value="Action in rem"> C) Action in rem</label>
+        <label><input type="radio" name="q11" value="Action de bonne foi"> D) Action de bonne foi</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>12. Quel contrat est considéré comme une obligation parfaite selon le droit romain ?</p>
+        <label><input type="radio" name="q12" value="Mandat"> A) Mandat</label>
+        <label><input type="radio" name="q12" value="Vente"> B) Vente</label>
+        <label><input type="radio" name="q12" value="Dépôt"> C) Dépôt</label>
+        <label><input type="radio" name="q12" value="Commodat"> D) Commodat</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>13. Quel quasi-contrat implique une gestion d'affaire sans consentement, dans l'intérêt du propriétaire ?</p>
+        <label><input type="radio" name="q13" value="Commodat"> A) Commodat</label>
+        <label><input type="radio" name="q13" value="Gestion d'affaire"> B) Gestion d'affaire</label>
+        <label><input type="radio" name="q13" value="Dépôt"> C) Dépôt</label>
+        <label><input type="radio" name="q13" value="Mandat"> D) Mandat</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>14. Selon l'école française, d'où vient le droit des obligations ?</p>
+        <label><input type="radio" name="q14" value="Du commerce"> A) Du commerce</label>
+        <label><input type="radio" name="q14" value="De la violence et de la réparation du dommage"> B) De la violence et de la réparation du dommage</label>
+        <label><input type="radio" name="q14" value="De la réciprocité sociale"> C) De la réciprocité sociale</label>
+        <label><input type="radio" name="q14" value="Du droit naturel"> D) Du droit naturel</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>15. Selon l'école italienne, le droit des obligations naît principalement du commerce et de quel type de contrat romain ?</p>
+        <label><input type="radio" name="q15" value="Sponsio"> A) Sponsio</label>
+        <label><input type="radio" name="q15" value="Mandat"> B) Mandat</label>
+        <label><input type="radio" name="q15" value="Vente"> C) Vente</label>
+        <label><input type="radio" name="q15" value="Dépôt"> D) Dépôt</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>16. Quel empereur romain a ordonné la compilation du droit romain au 6e siècle ?</p>
+        <label><input type="radio" name="q16" value="Justinien"> A) Justinien</label>
+        <label><input type="radio" name="q16" value="Ulpien"> B) Ulpien</label>
+        <label><input type="radio" name="q16" value="Paulus"> C) Paulus</label>
+        <label><input type="radio" name="q16" value="Gaius"> D) Gaius</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>17. Quel ouvrage romain est un recueil de constitutions impériales ?</p>
+        <label><input type="radio" name="q17" value="Le Digeste"> A) Le Digeste</label>
+        <label><input type="radio" name="q17" value="Le Code"> B) Le Code</label>
+        <label><input type="radio" name="q17" value="Les Institutes"> C) Les Institutes</label>
+        <label><input type="radio" name="q17" value="La glose"> D) La glose</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>18. Quel événement économique a influencé le développement du droit des obligations au 19e siècle ?</p>
+        <label><input type="radio" name="q18" value="La Révolution industrielle"> A) La Révolution industrielle</label>
+        <label><input type="radio" name="q18" value="La Révolution française"> B) La Révolution française</label>
+        <label><input type="radio" name="q18" value="La Première Guerre mondiale"> C) La Première Guerre mondiale</label>
+        <label><input type="radio" name="q18" value="La crise de 1929"> D) La crise de 1929</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>19. Quel arrêt de la Cour de cassation en 1896 étend la responsabilité du fait d'autrui ?</p>
+        <label><input type="radio" name="q19" value="Arrêt Guissez-Tiffaine"> A) Arrêt Guissez-Tiffaine</label>
+        <label><input type="radio" name="q19" value="Arrêt du 29 mars 1991"> B) Arrêt du 29 mars 1991</label>
+        <label><input type="radio" name="q19" value="Arrêt du 22 mai 1995"> C) Arrêt du 22 mai 1995</label>
+        <label><input type="radio" name="q19" value="Arrêt Courrières"> D) Arrêt Courrières</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>20. Quel décret de 1791 a conduit à la fragmentation des terres en France ?</p>
+        <label><input type="radio" name="q20" value="Décret sur l'héritage égal"> A) Décret sur l'héritage égal</label>
+        <label><input type="radio" name="q20" value="Décret sur la Révolution industrielle"> B) Décret sur la Révolution industrielle</label>
+        <label><input type="radio" name="q20" value="Décret sur le cadastre"> C) Décret sur le cadastre</label>
+        <label><input type="radio" name="q20" value="Décret sur la bourse"> D) Décret sur la bourse</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>21. Quel système primitif de justice est remplacé par le droit des obligations romain ?</p>
+        <label><input type="radio" name="q21" value="Vengeance privée"> A) Vengeance privée</label>
+        <label><input type="radio" name="q21" value="Tarifs orientaux"> B) Tarifs orientaux</label>
+        <label><input type="radio" name="q21" value="Droit naturel"> C) Droit naturel</label>
+        <label><input type="radio" name="q21" value="Droit canonique"> D) Droit canonique</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>22. Quel droit a introduit la théorie des vices du consentement au 11e siècle ?</p>
+        <label><input type="radio" name="q22" value="Droit romain"> A) Droit romain</label>
+        <label><input type="radio" name="q22" value="Droit canonique"> B) Droit canonique</label>
+        <label><input type="radio" name="q22" value="Droit naturel"> C) Droit naturel</label>
+        <label><input type="radio" name="q22" value="Droit anglo-saxon"> D) Droit anglo-saxon</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>23. Quel philosophe grec a développé le concept de synallagma dans son ouvrage "Éthique à Nicomaque" ?</p>
+        <label><input type="radio" name="q23" value="Aristote"> A) Aristote</label>
+        <label><input type="radio" name="q23" value="Platon"> B) Platon</label>
+        <label><input type="radio" name="q23" value="Socrate"> C) Socrate</label>
+        <label><input type="radio" name="q23" value="Épicure"> D) Épicure</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>24. Quel juriste du 18e siècle a réalisé une synthèse du droit romain, canonique et naturel ?</p>
+        <label><input type="radio" name="q24" value="Domat"> A) Domat</label>
+        <label><input type="radio" name="q24" value="Pothier"> B) Pothier</label>
+        <label><input type="radio" name="q24" value="Girard"> C) Girard</label>
+        <label><input type="radio" name="q24" value="Cuq"> D) Cuq</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>25. Quel code civil, influencé par le droit romain, a été exporté dans plus de 200 pays ?</p>
+        <label><input type="radio" name="q25" value="Code civil français de 1804"> A) Code civil français de 1804</label>
+        <label><input type="radio" name="q25" value="Code civil allemand"> B) Code civil allemand</label>
+        <label><input type="radio" name="q25" value="Code civil italien"> C) Code civil italien</label>
+        <label><input type="radio" name="q25" value="Code civil britannique"> D) Code civil britannique</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>26. Quel terme romain désigne le devoir de transférer une propriété ou d'effectuer une action ?</p>
+        <label><input type="radio" name="q26" value="Debitum"> A) Debitum</label>
+        <label><input type="radio" name="q26" value="Obligatio"> B) Obligatio</label>
+        <label><input type="radio" name="q26" value="Damnum"> C) Damnum</label>
+        <label><input type="radio" name="q26" value="Praestare"> D) Praestare</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>27. Selon Ulpien, l'obligation est un lien juridique qui lie qui à qui ?</p>
+        <label><input type="radio" name="q27" value="Le créancier au débiteur"> A) Le créancier au débiteur</label>
+        <label><input type="radio" name="q27" value="Le débiteur au créancier"> B) Le débiteur au créancier</label>
+        <label><input type="radio" name="q27" value="Le juge au plaideur"> C) Le juge au plaideur</label>
+        <label><input type="radio" name="q27" value="Le propriétaire à l'esclave"> D) Le propriétaire à l'esclave</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>28. Quel siècle voit l'apparition du terme "obligation" en français, selon les sources médiévales ?</p>
+        <label><input type="radio" name="q28" value="13e siècle"> A) 13e siècle</label>
+        <label><input type="radio" name="q28" value="12e siècle"> B) 12e siècle</label>
+        <label><input type="radio" name="q28" value="14e siècle"> C) 14e siècle</label>
+        <label><input type="radio" name="q28" value="15e siècle"> D) 15e siècle</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>29. Quel auteur médiéval, mort en 1192, a écrit "Conseil à un ami" et influencé la définition de l'obligation ?</p>
+        <label><input type="radio" name="q29" value="Pierre de Fontaine"> A) Pierre de Fontaine</label>
+        <label><input type="radio" name="q29" value="Eugène Gaudemet"> B) Eugène Gaudemet</label>
+        <label><input type="radio" name="q29" value="Paul Frédérique Girard"> C) Paul Frédérique Girard</label>
+        <label><input type="radio" name="q29" value="Édouard Cuq"> D) Édouard Cuq</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>30. Selon Eugène Gaudemet, l'obligation est liée à quel concept économique principal ?</p>
+        <label><input type="radio" name="q30" value="Le crédit"> A) Le crédit</label>
+        <label><input type="radio" name="q30" value="La dette pénale"> B) La dette pénale</label>
+        <label><input type="radio" name="q30" value="La propriété immobilière"> C) La propriété immobilière</label>
+        <label><input type="radio" name="q30" value="L'héritage"> D) L'héritage</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>31. Quel type d'objet d'obligation implique une abstention, comme ne pas construire sur un terrain ?</p>
+        <label><input type="radio" name="q31" value="Abstention"> A) Abstention</label>
+        <label><input type="radio" name="q31" value="Chose certaine"> B) Chose certaine</label>
+        <label><input type="radio" name="q31" value="Somme d'argent"> C) Somme d'argent</label>
+        <label><input type="radio" name="q31" value="Action physique"> D) Action physique</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>32. Quelle différence clé oppose le droit des obligations au droit des biens en termes de droit de suite ?</p>
+        <label><input type="radio" name="q32" value="Le droit des biens suit la chose"> A) Le droit des biens suit la chose</label>
+        <label><input type="radio" name="q32" value="Le droit des obligations suit la personne"> B) Le droit des obligations suit la personne</label>
+        <label><input type="radio" name="q32" value="Ils sont identiques"> C) Ils sont identiques</label>
+        <label><input type="radio" name="q32" value="Aucun n'a de droit de suite"> D) Aucun n'a de droit de suite</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>33. Quel type d'action romaine vise à récupérer une chose ou une somme d'argent ?</p>
+        <label><input type="radio" name="q33" value="Action rei persecutoria"> A) Action rei persecutoria</label>
+        <label><input type="radio" name="q33" value="Action in personam pénale"> B) Action in personam pénale</label>
+        <label><input type="radio" name="q33" value="Action in rem"> C) Action in rem</label>
+        <label><input type="radio" name="q33" value="Action de bonne foi"> D) Action de bonne foi</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>34. Quel contrat romain est considéré comme une obligation naturelle, sans action en justice ?</p>
+        <label><input type="radio" name="q34" value="Commodat"> A) Commodat</label>
+        <label><input type="radio" name="q34" value="Vente"> B) Vente</label>
+        <label><input type="radio" name="q34" value="Mandat"> C) Mandat</label>
+        <label><input type="radio" name="q34" value="Dépôt"> D) Dépôt</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>35. Quel quasi-contrat romain implique une gestion d'affaire sans mandat, mais dans l'intérêt d'autrui ?</p>
+        <label><input type="radio" name="q35" value="Gestion d'affaire"> A) Gestion d'affaire</label>
+        <label><input type="radio" name="q35" value="Commodat"> B) Commodat</label>
+        <label><input type="radio" name="q35" value="Dépôt"> C) Dépôt</label>
+        <label><input type="radio" name="q35" value="Mandat"> D) Mandat</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>36. Selon l'école française, le droit des obligations naît principalement de la réparation de quel type de dommage ?</p>
+        <label><input type="radio" name="q36" value="Dommage causé par la violence"> A) Dommage causé par la violence</label>
+        <label><input type="radio" name="q36" value="Dommage commercial"> B) Dommage commercial</label>
+        <label><input type="radio" name="q36" value="Dommage naturel"> C) Dommage naturel</label>
+        <label><input type="radio" name="q36" value="Dommage immobilier"> D) Dommage immobilier</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>37. Selon l'école italienne, le droit des obligations est lié au développement de quel type de contrat romain ?</p>
+        <label><input type="radio" name="q37" value="Contrats consensuels comme la vente"> A) Contrats consensuels comme la vente</label>
+        <label><input type="radio" name="q37" value="Contrats réels comme le dépôt"> B) Contrats réels comme le dépôt</label>
+        <label><input type="radio" name="q37" value="Contrats formels comme la sponsio"> C) Contrats formels comme la sponsio</label>
+        <label><input type="radio" name="q37" value="Contrats innommés"> D) Contrats innommés</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>38. Quel empereur byzantin a compilé le Corpus Juris Civilis au 6e siècle ?</p>
+        <label><input type="radio" name="q38" value="Justinien"> A) Justinien</label>
+        <label><input type="radio" name="q38" value="Ulpien"> B) Ulpien</label>
+        <label><input type="radio" name="q38" value="Paulus"> C) Paulus</label>
+        <label><input type="radio" name="q38" value="Gaius"> D) Gaius</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>39. Quel ouvrage du Corpus Juris Civilis contient des extraits de jurisconsultes romains ?</p>
+        <label><input type="radio" name="q39" value="Le Digeste"> A) Le Digeste</label>
+        <label><input type="radio" name="q39" value="Le Code"> B) Le Code</label>
+        <label><input type="radio" name="q39" value="Les Institutes"> C) Les Institutes</label>
+        <label><input type="radio" name="q39" value="Les Novelles"> D) Les Novelles</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>40. Quel événement du 19e siècle a favorisé l'essor des titres négociables et des obligations mobilières ?</p>
+        <label><input type="radio" name="q40" value="La Révolution industrielle"> A) La Révolution industrielle</label>
+        <label><input type="radio" name="q40" value="La Révolution française"> B) La Révolution française</label>
+        <label><input type="radio" name="q40" value="La Première Guerre mondiale"> C) La Première Guerre mondiale</label>
+        <label><input type="radio" name="q40" value="La crise de 1929"> D) La crise de 1929</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>41. Quel arrêt de la Cour de cassation française en 1896 a étendu la responsabilité du fait d'autrui ?</p>
+        <label><input type="radio" name="q41" value="Arrêt Guissez-Tiffaine"> A) Arrêt Guissez-Tiffaine</label>
+        <label><input type="radio" name="q41" value="Arrêt du 29 mars 1991"> B) Arrêt du 29 mars 1991</label>
+        <label><input type="radio" name="q41" value="Arrêt du 22 mai 1995"> C) Arrêt du 22 mai 1995</label>
+        <label><input type="radio" name="q41" value="Arrêt Courrières"> D) Arrêt Courrières</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>42. Quel décret révolutionnaire de 1791 a conduit à la fragmentation des terres et à l'essor des obligations ?</p>
+        <label><input type="radio" name="q42" value="Décret sur l'héritage égal"> A) Décret sur l'héritage égal</label>
+        <label><input type="radio" name="q42" value="Décret sur la Révolution industrielle"> B) Décret sur la Révolution industrielle</label>
+        <label><input type="radio" name="q42" value="Décret sur le cadastre"> C) Décret sur le cadastre</label>
+        <label><input type="radio" name="q42" value="Décret sur la bourse"> D) Décret sur la bourse</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>43. Quel système primitif de justice, basé sur la vengeance, a été remplacé par le droit des obligations romain ?</p>
+        <label><input type="radio" name="q43" value="Vengeance privée"> A) Vengeance privée</label>
+        <label><input type="radio" name="q43" value="Tarifs orientaux"> B) Tarifs orientaux</label>
+        <label><input type="radio" name="q43" value="Droit naturel"> C) Droit naturel</label>
+        <label><input type="radio" name="q43" value="Droit canonique"> D) Droit canonique</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>44. Quel droit médiéval a introduit la théorie des vices du consentement au 11e siècle ?</p>
+        <label><input type="radio" name="q44" value="Droit canonique"> A) Droit canonique</label>
+        <label><input type="radio" name="q44" value="Droit romain"> B) Droit romain</label>
+        <label><input type="radio" name="q44" value="Droit naturel"> C) Droit naturel</label>
+        <label><input type="radio" name="q44" value="Droit anglo-saxon"> D) Droit anglo-saxon</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>45. Quel philosophe grec a développé le concept de synallagma (réciprocité contractuelle) dans son ouvrage "Éthique à Nicomaque" ?</p>
+        <label><input type="radio" name="q45" value="Aristote"> A) Aristote</label>
+        <label><input type="radio" name="q45" value="Platon"> B) Platon</label>
+        <label><input type="radio" name="q45" value="Socrate"> C) Socrate</label>
+        <label><input type="radio" name="q45" value="Épicure"> D) Épicure</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>46. Quel juriste du 17e siècle a réalisé une synthèse du droit romain, canonique et naturel ?</p>
+        <label><input type="radio" name="q46" value="Domat"> A) Domat</label>
+        <label><input type="radio" name="q46" value="Pothier"> B) Pothier</label>
+        <label><input type="radio" name="q46" value="Girard"> C) Girard</label>
+        <label><input type="radio" name="q46" value="Cuq"> D) Cuq</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>47. Quel code civil européen, influencé par le droit romain, a été adopté dans plus de 200 pays ?</p>
+        <label><input type="radio" name="q47" value="Code civil français de 1804"> A) Code civil français de 1804</label>
+        <label><input type="radio" name="q47" value="Code civil allemand"> B) Code civil allemand</label>
+        <label><input type="radio" name="q47" value="Code civil italien"> C) Code civil italien</label>
+        <label><input type="radio" name="q47" value="Code civil britannique"> D) Code civil britannique</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>48. Quel événement historique a conduit à un projet de code des obligations commun entre la France et l'Italie en 1927 ?</p>
+        <label><input type="radio" name="q48" value="La Première Guerre mondiale"> A) La Première Guerre mondiale</label>
+        <label><input type="radio" name="q48" value="La Révolution française"> B) La Révolution française</label>
+        <label><input type="radio" name="q48" value="La Révolution industrielle"> C) La Révolution industrielle</label>
+        <label><input type="radio" name="q48" value="La crise de 1929"> D) La crise de 1929</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>49. Quel terme romain désigne l'évaluation préalable en argent du dommage ?</p>
+        <label><input type="radio" name="q49" value="Praejudicium"> A) Praejudicium</label>
+        <label><input type="radio" name="q49" value="Damnum"> B) Damnum</label>
+        <label><input type="radio" name="q49" value="Debitum"> C) Debitum</label>
+        <label><input type="radio" name="q49" value="Ligare"> D) Ligare</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>50. Quelle loi romaine de -326 a aboli le Nexum (l'emprisonnement pour dettes) ?</p>
+        <label><input type="radio" name="q50" value="Lex Poetelia Papiria"> A) Lex Poetelia Papiria</label>
+        <label><input type="radio" name="q50" value="Lex Aquilia"> B) Lex Aquilia</label>
+        <label><input type="radio" name="q50" value="Loi des XII Tables"> C) Loi des XII Tables</label>
+        <label><input type="radio" name="q50" value="Lex Hortensia"> D) Lex Hortensia</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>51. Quel contrat romain est un contrat consensuel parfait, impliquant un échange de choses contre argent ?</p>
+        <label><input type="radio" name="q51" value="Vente"> A) Vente</label>
+        <label><input type="radio" name="q51" value="Mandat"> B) Mandat</label>
+        <label><input type="radio" name="q51" value="Dépôt"> C) Dépôt</label>
+        <label><input type="radio" name="q51" value="Commodat"> D) Commodat</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>52. Quel quasi-contrat romain implique une gestion d'affaire sans consentement préalable ?</p>
+        <label><input type="radio" name="q52" value="Gestion d'affaire"> A) Gestion d'affaire</label>
+        <label><input type="radio" name="q52" value="Commodat"> B) Commodat</label>
+        <label><input type="radio" name="q52" value="Dépôt"> C) Dépôt</label>
+        <label><input type="radio" name="q52" value="Mandat"> D) Mandat</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>53. Selon l'école française, le droit des obligations naît de la réparation de dommages causés par quoi ?</p>
+        <label><input type="radio" name="q53" value="La violence"> A) La violence</label>
+        <label><input type="radio" name="q53" value="Le commerce"> B) Le commerce</label>
+        <label><input type="radio" name="q53" value="La réciprocité sociale"> C) La réciprocité sociale</label>
+        <label><input type="radio" name="q53" value="Le droit naturel"> D) Le droit naturel</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>54. Selon l'école italienne, le droit des obligations est lié au développement de contrats comme la vente consensuelle. Quel est son origine principale ?</p>
+        <label><input type="radio" name="q54" value="Le commerce"> A) Le commerce</label>
+        <label><input type="radio" name="q54" value="La violence"> B) La violence</label>
+        <label><input type="radio" name="q54" value="La réciprocité sociale"> C) La réciprocité sociale</label>
+        <label><input type="radio" name="q54" value="Le droit naturel"> D) Le droit naturel</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>55. Quel empereur romain a compilé le Corpus Juris Civilis, incluant le Digeste ?</p>
+        <label><input type="radio" name="q55" value="Justinien"> A) Justinien</label>
+        <label><input type="radio" name="q55" value="Ulpien"> B) Ulpien</label>
+        <label><input type="radio" name="q55" value="Paulus"> C) Paulus</label>
+        <label><input type="radio" name="q55" value="Gaius"> D) Gaius</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>56. Quel ouvrage du Corpus Juris Civilis est un manuel élémentaire pour les étudiants ?</p>
+        <label><input type="radio" name="q56" value="Les Institutes"> A) Les Institutes</label>
+        <label><input type="radio" name="q56" value="Le Digeste"> B) Le Digeste</label>
+        <label><input type="radio" name="q56" value="Le Code"> C) Le Code</label>
+        <label><input type="radio" name="q56" value="Les Novelles"> D) Les Novelles</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>57. Quel événement économique du 19e siècle a favorisé les obligations mobilières ?</p>
+        <label><input type="radio" name="q57" value="La Révolution industrielle"> A) La Révolution industrielle</label>
+        <label><input type="radio" name="q57" value="La Révolution française"> B) La Révolution française</label>
+        <label><input type="radio" name="q57" value="La Première Guerre mondiale"> C) La Première Guerre mondiale</label>
+        <label><input type="radio" name="q57" value="La crise de 1929"> D) La crise de 1929</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>58. Quel arrêt de la Cour de cassation en 1896 a étendu la responsabilité du fait d'autrui/des choses ?</p>
+        <label><input type="radio" name="q58" value="Arrêt Guissez-Tiffaine"> A) Arrêt Guissez-Tiffaine</label>
+        <label><input type="radio" name="q58" value="Arrêt du 29 mars 1991"> B) Arrêt du 29 mars 1991</label>
+        <label><input type="radio" name="q58" value="Arrêt du 22 mai 1995"> C) Arrêt du 22 mai 1995</label>
+        <label><input type="radio" name="q58" value="Arrêt Courrières"> D) Arrêt Courrières</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>59. Quel décret de 1791 a fragmenté les terres en France, favorisant les obligations ?</p>
+        <label><input type="radio" name="q59" value="Décret sur l'héritage égal"> A) Décret sur l'héritage égal</label>
+        <label><input type="radio" name="q59" value="Décret sur la Révolution industrielle"> B) Décret sur la Révolution industrielle</label>
+        <label><input type="radio" name="q59" value="Décret sur le cadastre"> C) Décret sur le cadastre</label>
+        <label><input type="radio" name="q59" value="Décret sur la bourse"> D) Décret sur la bourse</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>60. Quel système primitif a été remplacé par le droit des obligations romain ?</p>
+        <label><input type="radio" name="q60" value="Vengeance privée"> A) Vengeance privée</label>
+        <label><input type="radio" name="q60" value="Tarifs orientaux"> B) Tarifs orientaux</label>
+        <label><input type="radio" name="q60" value="Droit naturel"> C) Droit naturel</label>
+        <label><input type="radio" name="q60" value="Droit canonique"> D) Droit canonique</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>61. Quel droit médiéval a introduit les vices du consentement au 11e siècle ?</p>
+        <label><input type="radio" name="q61" value="Droit canonique"> A) Droit canonique</label>
+        <label><input type="radio" name="q61" value="Droit romain"> B) Droit romain</label>
+        <label><input type="radio" name="q61" value="Droit naturel"> C) Droit naturel</label>
+        <label><input type="radio" name="q61" value="Droit anglo-saxon"> D) Droit anglo-saxon</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>62. Quel philosophe grec a développé le synallagma dans "Éthique à Nicomaque" ?</p>
+        <label><input type="radio" name="q62" value="Aristote"> A) Aristote</label>
+        <label><input type="radio" name="q62" value="Platon"> B) Platon</label>
+        <label><input type="radio" name="q62" value="Socrate"> C) Socrate</label>
+        <label><input type="radio" name="q62" value="Épicure"> D) Épicure</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>63. Quel juriste du 17e siècle a synthétisé le droit romain, canonique et naturel ?</p>
+        <label><input type="radio" name="q63" value="Domat"> A) Domat</label>
+        <label><input type="radio" name="q63" value="Pothier"> B) Pothier</label>
+        <label><input type="radio" name="q63" value="Girard"> C) Girard</label>
+        <label><input type="radio" name="q63" value="Cuq"> D) Cuq</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>64. Quel code civil a été exporté dans plus de 200 pays grâce au droit romain ?</p>
+        <label><input type="radio" name="q64" value="Code civil français de 1804"> A) Code civil français de 1804</label>
+        <label><input type="radio" name="q64" value="Code civil allemand"> B) Code civil allemand</label>
+        <label><input type="radio" name="q64" value="Code civil italien"> C) Code civil italien</label>
+        <label><input type="radio" name="q64" value="Code civil britannique"> D) Code civil britannique</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>65. Quel événement a conduit à un projet de code des obligations commun (franco-italien) en 1927 ?</p>
+        <label><input type="radio" name="q65" value="La Première Guerre mondiale"> A) La Première Guerre mondiale</label>
+        <label><input type="radio" name="q65" value="La Révolution française"> B) La Révolution française</label>
+        <label><input type="radio" name="q65" value="La Révolution industrielle"> C) La Révolution industrielle</label>
+        <label><input type="radio" name="q65" value="La crise de 1929"> D) La crise de 1929</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>66. Quel terme romain désigne l'évaluation préalable du dommage en argent (condamnation pécuniaire) ?</p>
+        <label><input type="radio" name="q66" value="Praejudicium"> A) Praejudicium</label>
+        <label><input type="radio" name="q66" value="Damnum"> B) Damnum</label>
+        <label><input type="radio" name="q66" value="Debitum"> C) Debitum</label>
+        <label><input type="radio" name="q66" value="Ligare"> D) Ligare</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>67. Quel facteur a transformé l'obligation en titre négociable au 19e siècle ?</p>
+        <label><input type="radio" name="q67" value="Le passage à la richesse mobilière"> A) Le passage à la richesse mobilière</label>
+        <label><input type="radio" name="q67" value="La guerre civile"> B) La guerre civile</label>
+        <label><input type="radio" name="q67" value="La colonisation"> C) La colonisation</label>
+        <label><input type="radio" name="q67" value="La révolution agricole"> D) La révolution agricole</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>68. Quel jurisconsulte romain est considéré comme le "prince des jurisconsultes" ?</p>
+        <label><input type="radio" name="q68" value="Papinien"> A) Papinien</label>
+        <label><input type="radio" name="q68" value="Ulpien"> B) Ulpien</label>
+        <label><input type="radio" name="q68" value="Paulus"> C) Paulus</label>
+        <label><input type="radio" name="q68" value="Gaius"> D) Gaius</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>69. Quel ouvrage romain est un recueil d'extraits de jurisconsultes ?</p>
+        <label><input type="radio" name="q69" value="Le Digeste"> A) Le Digeste</label>
+        <label><input type="radio" name="q69" value="Le Code"> B) Le Code</label>
+        <label><input type="radio" name="q69" value="Les Institutes"> C) Les Institutes</label>
+        <label><input type="radio" name="q69" value="La glose"> D) La glose</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>70. Quel courant philosophique grec a influencé le droit romain au 2e siècle av. J.-C. ?</p>
+        <label><input type="radio" name="q70" value="Stoïcisme"> A) Stoïcisme</label>
+        <label><input type="radio" name="q70" value="Épicurisme"> B) Épicurisme</label>
+        <label><input type="radio" name="q70" value="Platonisme"> C) Platonisme</label>
+        <label><input type="radio" name="q70" value="Aristotélisme"> D) Aristotélisme</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>71. Quel empereur/période a introduit la procédure formulaire en -134 (Lex Aebutia) ?</p>
+        <label><input type="radio" name="q71" value="Auguste"> A) Auguste</label>
+        <label><input type="radio" name="q71" value="César"> B) César</label>
+        <label><input type="radio" name="q71" value="Néron"> C) Néron</label>
+        <label><input type="radio" name="q71" value="Trajan"> D) Trajan</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>72. Quel groupe de jurisconsultes romains a été fondateur du droit civil (conservateurs) ?</p>
+        <label><input type="radio" name="q72" value="Les Sabiniens"> A) Les Sabiniens</label>
+        <label><input type="radio" name="q72" value="Les Proculiens"> B) Les Proculiens</label>
+        <label><input type="radio" name="q72" value="Les Stoïciens"> C) Les Stoïciens</label>
+        <label><input type="radio" name="q72" value="Les Épicuriens"> D) Les Épicuriens</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>73. Quel ouvrage de Gaius est intégré dans le Digeste de Justinien (et a servi de modèle aux Institutes) ?</p>
+        <label><input type="radio" name="q73" value="Les Institutes"> A) Les Institutes</label>
+        <label><input type="radio" name="q73" value="Les Règles"> B) Les Règles</label>
+        <label><input type="radio" name="q73" value="Les Sentences"> C) Les Sentences</label>
+        <label><input type="radio" name="q73" value="L'Enchiridion"> D) L'Enchiridion</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>74. Quel facteur militaire a contribué à l'effondrement de la classe moyenne romaine ?</p>
+        <label><input type="radio" name="q74" value="Les guerres de conquête"> A) Les guerres de conquête</label>
+        <label><input type="radio" name="q74" value="La paix intérieure"> B) La paix intérieure</label>
+        <label><input type="radio" name="q74" value="La réforme fiscale"> C) La réforme fiscale</label>
+        <label><input type="radio" name="q74" value="L'esclavage généralisé"> D) L'esclavage généralisé</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>75. Quel facteur économique a favorisé la disparition des petites terres romaines ?</p>
+        <label><input type="radio" name="q75" value="La culture intensive sur grandes domaines"> A) La culture intensive sur grandes domaines</label>
+        <label><input type="radio" name="q75" value="La redistribution des terres"> B) La redistribution des terres</label>
+        <label><input type="radio" name="q75" value="La taxation équitable"> C) La taxation équitable</label>
+        <label><input type="radio" name="q75" value="L'importation de blé"> D) L'importation de blé</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>76. Quel empereur romain a conduit des réformes économiques et introduit la tétrarchie en 284-305 ?</p>
+        <label><input type="radio" name="q76" value="Dioclétien"> A) Dioclétien</label>
+        <label><input type="radio" name="q76" value="Constantin 1er"> B) Constantin 1er</label>
+        <label><input type="radio" name="q76" value="Justinien"> C) Justinien</label>
+        <label><input type="radio" name="q76" value="Théodose II"> D) Théodose II</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>77. Quel empereur a pris l'édit de tolérance en 313, accordant la liberté de culte ?</p>
+        <label><input type="radio" name="q77" value="Constantin 1er"> A) Constantin 1er</label>
+        <label><input type="radio" name="q77" value="Dioclétien"> B) Dioclétien</label>
+        <label><input type="radio" name="q77" value="Justinien"> C) Justinien</label>
+        <label><input type="radio" name="q77" value="Théodose II"> D) Théodose II</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>78. Quel empereur a fait de Constantinople sa résidence officielle en 330 ?</p>
+        <label><input type="radio" name="q78" value="Constantin 1er"> A) Constantin 1er</label>
+        <label><input type="radio" name="q78" value="Dioclétien"> B) Dioclétien</label>
+        <label><input type="radio" name="q78" value="Justinien"> C) Justinien</label>
+        <label><input type="radio" name="q78" value="Théodose II"> D) Théodose II</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>79. Quel roi wisigoth a promulgué un code en 476 ?</p>
+        <label><input type="radio" name="q79" value="Euric"> A) Euric</label>
+        <label><input type="radio" name="q79" value="Gondebaud"> B) Gondebaud</label>
+        <label><input type="radio" name="q79" value="Rotharis"> C) Rotharis</label>
+        <label><input type="radio" name="q79" value="Alaric II"> D) Alaric II</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>80. Quel roi burgonde a promulgué ses coutumes en 502 ?</p>
+        <label><input type="radio" name="q80" value="Gondebaud"> A) Gondebaud</label>
+        <label><input type="radio" name="q80" value="Euric"> B) Euric</label>
+        <label><input type="radio" name="q80" value="Rotharis"> C) Rotharis</label>
+        <label><input type="radio" name="q80" value="Alaric II"> D) Alaric II</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>81. Quel roi lombard a promulgué un code en 643 ?</p>
+        <label><input type="radio" name="q81" value="Rotharis"> A) Rotharis</label>
+        <label><input type="radio" name="q81" value="Euric"> B) Euric</label>
+        <label><input type="radio" name="q81" value="Gondebaud"> C) Gondebaud</label>
+        <label><input type="radio" name="q81" value="Alaric II"> D) Alaric II</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>82. Quel empereur byzantin a ordonné la rédaction du Digeste en 533 ?</p>
+        <label><input type="radio" name="q82" value="Justinien"> A) Justinien</label>
+        <label><input type="radio" name="q82" value="Dioclétien"> B) Dioclétien</label>
+        <label><input type="radio" name="q82" value="Constantin 1er"> C) Constantin 1er</label>
+        <label><input type="radio" name="q82" value="Théodose II"> D) Théodose II</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>83. Quel ouvrage est un recueil officiel de constitutions impériales ?</p>
+        <label><input type="radio" name="q83" value="Le Code"> A) Le Code</label>
+        <label><input type="radio" name="q83" value="Le Digeste"> B) Le Digeste</label>
+        <label><input type="radio" name="q83" value="Les Institutes"> C) Les Institutes</label>
+        <label><input type="radio" name="q83" value="Les Novelles"> D) Les Novelles</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>84. Quel ouvrage est un résumé du Digeste pour les étudiants ?</p>
+        <label><input type="radio" name="q84" value="Les Institutes"> A) Les Institutes</label>
+        <label><input type="radio" name="q84" value="Le Code"> B) Le Code</label>
+        <label><input type="radio" name="q84" value="Le Digeste"> C) Le Digeste</label>
+        <label><input type="radio" name="q84" value="Les Novelles"> D) Les Novelles</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>85. Quel ouvrage contient de nouvelles constitutions promulguées après 534 ?</p>
+        <label><input type="radio" name="q85" value="Les Novelles"> A) Les Novelles</label>
+        <label><input type="radio" name="q85" value="Le Code"> B) Le Code</label>
+        <label><input type="radio" name="q85" value="Le Digeste"> C) Le Digeste</label>
+        <label><input type="radio" name="q85" value="Les Institutes"> D) Les Institutes</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>86. Quel empereur a ordonné la publication du Code Théodosien en 438 ?</p>
+        <label><input type="radio" name="q86" value="Théodose II"> A) Théodose II</label>
+        <label><input type="radio" name="q86" value="Justinien"> B) Justinien</label>
+        <label><input type="radio" name="q86" value="Dioclétien"> C) Dioclétien</label>
+        <label><input type="radio" name="q86" value="Constantin 1er"> D) Constantin 1er</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>87. Quel document du 6e siècle est appelé "consultation veteris" et cite Gaius ?</p>
+        <label><input type="radio" name="q87" value="Un document consultatif sur une question de droit"> A) Un document consultatif sur une question de droit</label>
+        <label><input type="radio" name="q87" value="Un code barbare"> B) Un code barbare</label>
+        <label><input type="radio" name="q87" value="Une glose médiévale"> C) Une glose médiévale</label>
+        <label><input type="radio" name="q87" value="Un rescrit impérial"> D) Un rescrit impérial</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>88. Quel facteur a conduit à l'appauvrissement du droit romain au 6e siècle ?</p>
+        <label><input type="radio" name="q88" value="La perte de sources et la transmission difficile"> A) La perte de sources et la transmission difficile</label>
+        <label><input type="radio" name="q88" value="La guerre civile"> B) La guerre civile</label>
+        <label><input type="radio" name="q88" value="La réforme fiscale"> C) La réforme fiscale</label>
+        <label><input type="radio" name="q88" value="L'esclavage généralisé"> D) L'esclavage généralisé</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>89. Quel rôle a joué l'Église dans la rédaction du Corpus Juris Civilis ?</p>
+        <label><input type="radio" name="q89" value="Important, avec des pères comme Ambroise et St Jérôme"> A) Important, avec des pères comme Ambroise et St Jérôme</label>
+        <label><input type="radio" name="q89" value="Nul"> B) Nul</label>
+        <label><input type="radio" name="q89" value="Secondaire"> C) Secondaire</label>
+        <label><input type="radio" name="q89" value="Hostile"> D) Hostile</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>90. Quel concept chrétien a influencé la notion de droit naturel au Bas-Empire ?</p>
+        <label><input type="radio" name="q90" value="La théologie et la conscience humaine"> A) La théologie et la conscience humaine</label>
+        <label><input type="radio" name="q90" value="La violence"> B) La violence</label>
+        <label><input type="radio" name="q90" value="Le commerce"> C) Le commerce</label>
+        <label><input type="radio" name="q90" value="L'esclavage"> D) L'esclavage</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>91. Quel changement a apporté l'influence chrétienne à l'esclavage ?</p>
+        <label><input type="radio" name="q91" value="Hostilité à l'esclavage, droit d'asile, fin du pouvoir absolu"> A) Hostilité à l'esclavage, droit d'asile, fin du pouvoir absolu</label>
+        <label><input type="radio" name="q91" value="Renforcement de l'esclavage"> B) Renforcement de l'esclavage</label>
+        <label><input type="radio" name="q91" value="Abolition immédiate"> C) Abolition immédiate</label>
+        <label><input type="radio" name="q91" value="Pas de changement"> D) Pas de changement</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>92. Quel type de procédure extraordinaire est née à partir d'Auguste ?</p>
+        <label><input type="radio" name="q92" value="Justice personnelle de l'empereur"> A) Justice personnelle de l'empereur</label>
+        <label><input type="radio" name="q92" value="Justice des prêtres"> B) Justice des prêtres</label>
+        <label><input type="radio" name="q92" value="Justice des esclaves"> C) Justice des esclaves</label>
+        <label><input type="radio" name="q92" value="Justice des barbares"> D) Justice des barbares</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>93. Quel litige est traité par la procédure extraordinaire, comme la dépossession avec violence ?</p>
+        <label><input type="radio" name="q93" value="Litiges portant atteinte à l'ordre public"> A) Litiges portant atteinte à l'ordre public</label>
+        <label><input type="radio" name="q93" value="Litiges commerciaux"> B) Litiges commerciaux</label>
+        <label><input type="radio" name="q93" value="Litiges familiaux"> C) Litiges familiaux</label>
+        <label><input type="radio" name="q93" value="Litiges immobiliers"> D) Litiges immobiliers</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>94. Quel empereur a généralisé la procédure extraordinaire en 294 ?</p>
+        <label><input type="radio" name="q94" value="Dioclétien"> A) Dioclétien</label>
+        <label><input type="radio" name="q94" value="Constantin 1er"> B) Constantin 1er</label>
+        <label><input type="radio" name="q94" value="Justinien"> C) Justinien</label>
+        <label><input type="radio" name="q94" value="Auguste"> D) Auguste</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>95. Quel empereur a abrogé officiellement la procédure formulaire en 342 ?</p>
+        <label><input type="radio" name="q95" value="Constantin 1er"> A) Constantin 1er</label>
+        <label><input type="radio" name="q95" value="Dioclétien"> B) Dioclétien</label>
+        <label><input type="radio" name="q95" value="Justinien"> C) Justinien</label>
+        <label><input type="radio" name="q95" value="Théodose II"> D) Théodose II</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>96. Quel type de justice permet l'appel hiérarchisé dans la procédure extraordinaire ?</p>
+        <label><input type="radio" name="q96" value="Justice déléguée"> A) Justice déléguée</label>
+        <label><input type="radio" name="q96" value="Justice personnelle"> B) Justice personnelle</label>
+        <label><input type="radio" name="q96" value="Justice des évêques"> C) Justice des évêques</label>
+        <label><input type="radio" name="q96" value="Justice des barbares"> D) Justice des barbares</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>97. Quel type de justice est exercée par les évêques au sein de leur communauté ?</p>
+        <label><input type="radio" name="q97" value="Justice de l'évêque"> A) Justice de l'évêque</label>
+        <label><input type="radio" name="q97" value="Justice déléguée"> B) Justice déléguée</label>
+        <label><input type="radio" name="q97" value="Justice personnelle"> C) Justice personnelle</label>
+        <label><input type="radio" name="q97" value="Justice des barbares"> D) Justice des barbares</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>98. Quel événement a conduit à la fragmentation des terres en France au 18e siècle ?</p>
+        <label><input type="radio" name="q98" value="Décret sur l'héritage égal"> A) Décret sur l'héritage égal</label>
+        <label><input type="radio" name="q98" value="Révolution industrielle"> B) Révolution industrielle</label>
+        <label><input type="radio" name="q98" value="Code civil"> C) Code civil</label>
+        <label><input type="radio" name="q98" value="Tétrarchie"> D) Tétrarchie</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>99. Quel facteur économique a favorisé la disparition des petites terres romaines ?</p>
+        <label><input type="radio" name="q99" value="Importation de blé"> A) Importation de blé</label>
+        <label><input type="radio" name="q99" value="Culture intensive sur grandes domaines"> B) Culture intensive sur grandes domaines</label>
+        <label><input type="radio" name="q99" value="Réforme fiscale"> C) Réforme fiscale</label>
+        <label><input type="radio" name="q99" value="Esclavage généralisé"> D) Esclavage généralisé</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>100. Quel facteur militaire a contribué à l'effondrement de la classe moyenne romaine ?</p>
+        <label><input type="radio" name="q100" value="Guerres de conquête"> A) Guerres de conquête</label>
+        <label><input type="radio" name="q100" value="Paix intérieure"> B) Paix intérieure</label>
+        <label><input type="radio" name="q100" value="Réforme fiscale"> C) Réforme fiscale</label>
+        <label><input type="radio" name="q100" value="Esclavage généralisé"> D) Esclavage généralisé</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>101. Au Ve siècle, la Gaule était soumise à quel code impérial ?</p>
+        <label><input type="radio" name="q101" value="Code Théodosien"> A) Code Théodosien</label>
+        <label><input type="radio" name="q101" value="Code Justinien"> B) Code Justinien</label>
+        <label><input type="radio" name="q101" value="Code Napoléon"> C) Code Napoléon</label>
+        <label><input type="radio" name="q101" value="Code Civil"> D) Code Civil</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>102. Quel roi wisigoth a promulgué ses coutumes en 476 ?</p>
+        <label><input type="radio" name="q102" value="Euric"> A) Euric</label>
+        <label><input type="radio" name="q102" value="Gondebaud"> B) Gondebaud</label>
+        <label><input type="radio" name="q102" value="Rotharis"> C) Rotharis</label>
+        <label><input type="radio" name="q102" value="Alaric II"> D) Alaric II</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>103. Quel roi burgonde a promulgué ses coutumes en 502 ?</p>
+        <label><input type="radio" name="q103" value="Gondebaud"> A) Gondebaud</label>
+        <label><input type="radio" name="q103" value="Euric"> B) Euric</label>
+        <label><input type="radio" name="q103" value="Rotharis"> C) Rotharis</label>
+        <label><input type="radio" name="q103" value="Alaric II"> D) Alaric II</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>104. Quel roi lombard a promulgué ses coutumes en 643 ?</p>
+        <label><input type="radio" name="q104" value="Rotharis"> A) Rotharis</label>
+        <label><input type="radio" name="q104" value="Euric"> B) Euric</label>
+        <label><input type="radio" name="q104" value="Gondebaud"> C) Gondebaud</label>
+        <label><input type="radio" name="q104" value="Alaric II"> D) Alaric II</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>105. Quel texte romain a été utilisé jusqu'au XIe siècle en Gaule ?</p>
+        <label><input type="radio" name="q105" value="Bréviaire d'Alaric"> A) Bréviaire d'Alaric</label>
+        <label><input type="radio" name="q105" value="Code Théodosien"> B) Code Théodosien</label>
+        <label><input type="radio" name="q105" value="Digeste"> C) Digeste</label>
+        <label><input type="radio" name="q105" value="Institutes"> D) Institutes</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>106. Quel historien a travaillé sur les contrats et les archives du nord de la Loire ?</p>
+        <label><input type="radio" name="q106" value="Jean-François Lemarignier"> A) Jean-François Lemarignier</label>
+        <label><input type="radio" name="q106" value="Eugène Gaudemet"> B) Eugène Gaudemet</label>
+        <label><input type="radio" name="q106" value="André Gouron"> C) André Gouron</label>
+        <label><input type="radio" name="q106" value="Pierre Abélard"> D) Pierre Abélard</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>107. Selon Eugène Gaudemet, la persistance du droit romain était-elle importante ?</p>
+        <label><input type="radio" name="q107" value="Oui, plus qu'on ne le croit"> A) Oui, plus qu'on ne le croit</label>
+        <label><input type="radio" name="q107" value="Non, elle était faible"> B) Non, elle était faible</label>
+        <label><input type="radio" name="q107" value="Elle était nulle"> C) Elle était nulle</label>
+        <label><input type="radio" name="q107" value="Elle était exagérée"> D) Elle était exagérée</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>108. Quel événement illustre la disparition du droit romain au XIe siècle ?</p>
+        <label><input type="radio" name="q108" value="Affaire de château Landon"> A) Affaire de château Landon</label>
+        <label><input type="radio" name="q108" value="Découverte de la Florentine"> B) Découverte de la Florentine</label>
+        <label><input type="radio" name="q108" value="Renaissance à Bologne"> C) Renaissance à Bologne</label>
+        <label><input type="radio" name="q108" value="Ordonnance de Montils-les-Tours"> D) Ordonnance de Montils-les-Tours</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>109. Quel théologien a été incapable d'expliquer une loi du Code de Justinien ?</p>
+        <label><input type="radio" name="q109" value="Pierre Abélard"> A) Pierre Abélard</label>
+        <label><input type="radio" name="q109" value="André Gouron"> B) André Gouron</label>
+        <label><input type="radio" name="q109" value="Eugène Gaudemet"> C) Eugène Gaudemet</label>
+        <label><input type="radio" name="q109" value="Jean-François Lemarignier"> D) Jean-François Lemarignier</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>110. Selon André Gouron, le XIe siècle était marqué par quoi ?</p>
+        <label><input type="radio" name="q110" value="Vacuité et léthargie"> A) Vacuité et léthargie</label>
+        <label><input type="radio" name="q110" value="Renaissance"> B) Renaissance</label>
+        <label><input type="radio" name="q110" value="Unification"> C) Unification</label>
+        <label><input type="radio" name="q110" value="Révolution"> D) Révolution</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>111. Quel juriste a enseigné à Bologne entre 1088 et 1125 ?</p>
+        <label><input type="radio" name="q111" value="Irnerius"> A) Irnerius</label>
+        <label><input type="radio" name="q111" value="Pierre Abélard"> B) Pierre Abélard</label>
+        <label><input type="radio" name="q111" value="André Gouron"> C) André Gouron</label>
+        <label><input type="radio" name="q111" value="Eugène Gaudemet"> D) Eugène Gaudemet</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>112. Quel terme désigne la renaissance du droit romain au XIe siècle ?</p>
+        <label><input type="radio" name="q112" value="Renovatio"> A) Renovatio</label>
+        <label><input type="radio" name="q112" value="Vacuité"> B) Vacuité</label>
+        <label><input type="radio" name="q112" value="Léthargie"> C) Léthargie</label>
+        <label><input type="radio" name="q112" value="Dénaturation"> D) Dénaturation</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>113. Quel besoin de la bourgeoisie marchande a favorisé le droit romain ?</p>
+        <label><input type="radio" name="q113" value="Sécurité des rapports juridiques"> A) Sécurité des rapports juridiques</label>
+        <label><input type="radio" name="q113" value="Diversité des coutumes"> B) Diversité des coutumes</label>
+        <label><input type="radio" name="q113" value="Oppression"> C) Oppression</label>
+        <label><input type="radio" name="q113" value="Vengeance privée"> D) Vengeance privée</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>114. Quel manuscrit unique de Justinien a été retrouvé à Pise ?</p>
+        <label><input type="radio" name="q114" value="Florentine"> A) Florentine</label>
+        <label><input type="radio" name="q114" value="Bréviaire d'Alaric"> B) Bréviaire d'Alaric</label>
+        <label><input type="radio" name="q114" value="Code Théodosien"> C) Code Théodosien</label>
+        <label><input type="radio" name="q114" value="Digeste"> D) Digeste</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>115. Quel pape a fait rechercher d'anciens textes pour la réforme de l'Église ?</p>
+        <label><input type="radio" name="q115" value="Grégoire VII"> A) Grégoire VII</label>
+        <label><input type="radio" name="q115" value="Justinien"> B) Justinien</label>
+        <label><input type="radio" name="q115" value="Dioclétien"> C) Dioclétien</label>
+        <label><input type="radio" name="q115" value="Constantin"> D) Constantin</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>116. Quel facteur a facilité la propagation du droit romain en Europe ?</p>
+        <label><input type="radio" name="q116" value="Action de l'Église"> A) Action de l'Église</label>
+        <label><input type="radio" name="q116" value="Opposition des populations"> B) Opposition des populations</label>
+        <label><input type="radio" name="q116" value="Montagnes en Savoie"> C) Montagnes en Savoie</label>
+        <label><input type="radio" name="q116" value="Coutumes locales"> D) Coutumes locales</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>117. Quel événement a retardé la propagation du droit romain en Savoie ?</p>
+        <label><input type="radio" name="q117" value="Montagnes suscitant la crainte"> A) Montagnes suscitant la crainte</label>
+        <label><input type="radio" name="q117" value="Révoltes paysannes"> B) Révoltes paysannes</label>
+        <label><input type="radio" name="q117" value="Croisade albigeoise"> C) Croisade albigeoise</label>
+        <label><input type="radio" name="q117" value="Renaissance universitaire"> D) Renaissance universitaire</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>118. Quel événement a provoqué une résistance au droit romain dans le Sud-Ouest ?</p>
+        <label><input type="radio" name="q118" value="Croisade albigeoise"> A) Croisade albigeoise</label>
+        <label><input type="radio" name="q118" value="Révoltes paysannes"> B) Révoltes paysannes</label>
+        <label><input type="radio" name="q118" value="Montagnes en Savoie"> C) Montagnes en Savoie</label>
+        <label><input type="radio" name="q118" value="Renaissance à Bologne"> D) Renaissance à Bologne</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>119. Quel groupe a vu le droit romain comme un instrument d'oppression ?</p>
+        <label><input type="radio" name="q119" value="Petites gens du Nord"> A) Petites gens du Nord</label>
+        <label><input type="radio" name="q119" value="Bourgeoisie marchande"> B) Bourgeoisie marchande</label>
+        <label><input type="radio" name="q119" value="Notaires"> C) Notaires</label>
+        <label><input type="radio" name="q119" value="Église"> D) Église</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>120. Quel groupe a joué un rôle actif dans la romanisation du Midi ?</p>
+        <label><input type="radio" name="q120" value="Notaires"> A) Notaires</label>
+        <label><input type="radio" name="q120" value="Paysans"> B) Paysans</label>
+        <label><input type="radio" name="q120" value="Évêques"> C) Évêques</label>
+        <label><input type="radio" name="q120" value="Rois barbares"> D) Rois barbares</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>121. Quel roi a reconnu en 1251 une partie du royaume régie par le droit écrit ?</p>
+        <label><input type="radio" name="q121" value="Blanche de Castille"> A) Blanche de Castille</label>
+        <label><input type="radio" name="q121" value="Henri II"> B) Henri II</label>
+        <label><input type="radio" name="q121" value="François II"> C) François II</label>
+        <label><input type="radio" name="q121" value="Louis XIV"> D) Louis XIV</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>122. Quel ordonnance a ordonné la rédaction des coutumes en 1454 ?</p>
+        <label><input type="radio" name="q122" value="Ordonnance de Montils-les-Tours"> A) Ordonnance de Montils-les-Tours</label>
+        <label><input type="radio" name="q122" value="Ordonnance de Moulins"> B) Ordonnance de Moulins</label>
+        <label><input type="radio" name="q122" value="Ordonnance de 1667"> C) Ordonnance de 1667</label>
+        <label><input type="radio" name="q122" value="Ordonnance de 1731"> D) Ordonnance de 1731</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>123. Quel roi a abrogé le sénatus-consulte velléien en 1606 ?</p>
+        <label><input type="radio" name="q123" value="Henri IV"> A) Henri IV</label>
+        <label><input type="radio" name="q123" value="Henri II"> B) Henri II</label>
+        <label><input type="radio" name="q123" value="François II"> C) François II</label>
+        <label><input type="radio" name="q123" value="Louis XIV"> D) Louis XIV</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>124. Quel édit a imposé l'application de la loi romaine en 1560 ?</p>
+        <label><input type="radio" name="q124" value="Édit de Fontainebleau"> A) Édit de Fontainebleau</label>
+        <label><input type="radio" name="q124" value="Ordonnance de Moulins"> B) Ordonnance de Moulins</label>
+        <label><input type="radio" name="q124" value="Ordonnance de 1667"> C) Ordonnance de 1667</label>
+        <label><input type="radio" name="q124" value="Ordonnance de 1731"> D) Ordonnance de 1731</label>
+        <div class="feedback"></div>
+    </div>
+    
+    <div class="question">
+        <p>125. Quel chancelier a codifié les donations en 1731 ?</p>
+        <label><input type="radio" name="q125" value="Daguesseau"> A) Daguesseau</label>
+        <label><input type="radio" name="q125" value="Colbert"> B) Colbert</label>
+        <label><input type="radio" name="q125" value="Cambacérès"> C) Cambacérès</label>
+        <label><input type="radio" name="q125" value="Portalis"> D) Portalis</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>126. Quel terme latin désigne le lien juridique qui astreint une personne à transférer une propriété ou à faire quelque chose ?</p>
+        <label><input type="radio" name="q126" value="Obligatio"> A) Obligatio</label>
+        <label><input type="radio" name="q126" value="Debitum"> B) Debitum</label>
+        <label><input type="radio" name="q126" value="Damnum"> C) Damnum</label>
+        <label><input type="radio" name="q126" value="Praestare"> D) Praestare</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>127. Selon Ulpien, l'obligation est un lien de droit qui apparaît dans quel recueil juridique du 6e siècle ?</p>
+        <label><input type="radio" name="q127" value="Le Digeste"> A) Le Digeste</label>
+        <label><input type="radio" name="q127" value="Le Code"> B) Le Code</label>
+        <label><input type="radio" name="q127" value="Les Institutes"> C) Les Institutes</label>
+        <label><input type="radio" name="q127" value="La loi des 12 tables"> D) La loi des 12 tables</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>128. Quel juriste romain a défini l'obligation comme impliquant "dare, facere, praestare" ?</p>
+        <label><input type="radio" name="q128" value="Paulus"> A) Paulus</label> <label><input type="radio" name="q128" value="Ulpien"> B) Ulpien</label>
+        <label><input type="radio" name="q128" value="Gaius"> C) Gaius</label>
+        <label><input type="radio" name="q128" value="Justinien"> D) Justinien</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>129. À partir de quel siècle le terme "obligation" apparaît-il dans la langue française ?</p>
+        <label><input type="radio" name="q129" value="13e siècle"> A) 13e siècle</label>
+        <label><input type="radio" name="q129" value="12e siècle"> B) 12e siècle</label>
+        <label><input type="radio" name="q129" value="14e siècle"> C) 14e siècle</label>
+        <label><input type="radio" name="q129" value="15e siècle"> D) 15e siècle</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>130. Quel auteur médiéval écrit "Conseil à un ami" et contribue à la définition de l'obligation ?</p>
+        <label><input type="radio" name="q130" value="Pierre de Fontaine"> A) Pierre de Fontaine</label>
+        <label><input type="radio" name="q130" value="Eugène Gaudemet"> B) Eugène Gaudemet</label>
+        <label><input type="radio" name="q130" value="Paul Frédérique Girard"> C) Paul Frédérique Girard</label>
+        <label><input type="radio" name="q130" value="Édouard Cuq"> D) Édouard Cuq</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>131. À l'époque classique, l'obligation pèse sur quoi, selon le droit romain ?</p>
+        <label><input type="radio" name="q131" value="La volonté du débiteur"> A) La volonté du débiteur</label>
+        <label><input type="radio" name="q131" value="Le corps du débiteur"> B) Le corps du débiteur</label>
+        <label><input type="radio" name="q131" value="Les biens du débiteur"> C) Les biens du débiteur</label>
+        <label><input type="radio" name="q131" value="La famille du débiteur"> D) La famille du débiteur</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>132. Quel élément distinctif de l'obligation moderne est mentionné par les auteurs belges et germanistes ?</p>
+        <label><input type="radio" name="q132" value="Schuld et Haftung"> A) Schuld et Haftung</label>
+        <label><input type="radio" name="q132" value="Debitum et Ligare"> B) Debitum et Ligare</label>
+        <label><input type="radio" name="q132" value="Praestare et Damnum"> C) Praestare et Damnum</label>
+        <label><input type="radio" name="q132" value="Obligatio et Jus"> D) Obligatio et Jus</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>133. Quel terme désigne la prestation à laquelle est tenu le débiteur ?</p>
+        <label><input type="radio" name="q133" value="Schuld"> A) Schuld</label>
+        <label><input type="radio" name="q133" value="Haftung"> B) Haftung</label>
+        <label><input type="radio" name="q133" value="Debitum"> C) Debitum</label>
+        <label><input type="radio" name="q133" value="Ligare"> D) Ligare</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>134. Quel terme représente la contrainte exercée par le créancier sur le débiteur ?</p>
+        <label><input type="radio" name="q134" value="Haftung"> A) Haftung</label>
+        <label><input type="radio" name="q134" value="Schuld"> B) Schuld</label>
+        <label><input type="radio" name="q134" value="Debitum"> C) Debitum</label>
+        <label><input type="radio" name="q134" value="Praestare"> D) Praestare</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>135. Quel rituel romain illustre le formalisme des accords de volonté ?</p>
+        <label><input type="radio" name="q135" value="Nexum"> A) Nexum</label>
+        <label><input type="radio" name="q135" value="Sponsio"> B) Sponsio</label>
+        <label><input type="radio" name="q135" value="Mandat"> C) Mandat</label>
+        <label><input type="radio" name="q135" value="Vente"> D) Vente</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>136. Quel contrat consensuel est mentionné comme se formant par simple accord de volonté ?</p>
+        <label><input type="radio" name="q136" value="Vente"> A) Vente</label>
+        <label><input type="radio" name="q136" value="Mandat"> B) Mandat</label>
+        <label><input type="radio" name="q136" value="Dépôt"> C) Dépôt</label>
+        <label><input type="radio" name="q136" value="Commodat"> D) Commodat</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>137. Quel principe triomphe avec les contrats consensuels, comme dans le Code civil de 1804 ?</p>
+        <label><input type="radio" name="q137" value="Autonomie de la volonté"> A) Autonomie de la volonté</label>
+        <label><input type="radio" name="q137" value="Formalisme"> B) Formalisme</label>
+        <label><input type="radio" name="q137" value="Justice privée"> C) Justice privée</label>
+        <label><input type="radio" name="q137" value="Vengeance"> D) Vengeance</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>138. Quel contrat permet une novation de l'obligation par jeu d'écriture à partir du IIe siècle ?</p>
+        <label><input type="radio" name="q138" value="Expensilatio"> A) Expensilatio</label>
+        <label><input type="radio" name="q138" value="Nexum"> B) Nexum</label>
+        <label><input type="radio" name="q138" value="Sponsio"> C) Sponsio</label>
+        <label><input type="radio" name="q138" value="Mandat"> D) Mandat</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>139. Quel changement économique au IIe siècle a multiplié les contrats ?</p>
+        <label><input type="radio" name="q139" value="Recul de l'agriculture et progression des activités commerciales"> A) Recul de l'agriculture et progression des activités commerciales</label>
+        <label><input type="radio" name="q139" value="Expansion des guerres puniques"> B) Expansion des guerres puniques</label>
+        <label><input type="radio" name="q139" value="Développement de l'esclavage"> C) Développement de l'esclavage</label>
+        <label><input type="radio" name="q139" value="Réforme fiscale"> D) Réforme fiscale</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>140. Quel contrat est utilisé pour la location de logement à partir du IIe siècle ?</p>
+        <label><input type="radio" name="q140" value="Louage"> A) Louage</label>
+        <label><input type="radio" name="q140" value="Vente"> B) Vente</label>
+        <label><input type="radio" name="q140" value="Mandat"> C) Mandat</label>
+        <label><input type="radio" name="q140" value="Dépôt"> D) Dépôt</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>141. Quel contrat est introduit à l'époque impériale pour améliorer la sécurité des transactions ?</p>
+        <label><input type="radio" name="q141" value="Hypothèque"> A) Hypothèque</label>
+        <label><input type="radio" name="q141" value="Fiducie"> B) Fiducie</label>
+        <label><input type="radio" name="q141" value="Gage"> C) Gage</label>
+        <label><input type="radio" name="q141" value="Mandat"> D) Mandat</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>142. Quel type de sûreté réelle permet un droit réel sur la chose du débiteur sans déplacement ?</p>
+        <label><input type="radio" name="q142" value="Hypothèque"> A) Hypothèque</label>
+        <label><input type="radio" name="q142" value="Fiducie"> B) Fiducie</label>
+        <label><input type="radio" name="q142" value="Gage"> C) Gage</label>
+        <label><input type="radio" name="q142" value="Mandat"> D) Mandat</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>143. Quel crime réprimé par les empereurs consiste à aliéner un bien sans déclarer les hypothèques ?</p>
+        <label><input type="radio" name="q143" value="Stellionat"> A) Stellionat</label>
+        <label><input type="radio" name="q143" value="Rapina"> B) Rapina</label>
+        <label><input type="radio" name="q143" value="Injure"> C) Injure</label>
+        <label><input type="radio" name="q143" value="Dol"> D) Dol</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>144. Quel facteur économique au IIIe siècle conduit à la crise romaine ?</p>
+        <label><input type="radio" name="q144" value="Disette, surproduction, poids des impôts, hausse des prix"> A) Disette, surproduction, poids des impôts, hausse des prix</label>
+        <label><input type="radio" name="q144" value="Expansion commerciale"> B) Expansion commerciale</label>
+        <label><input type="radio" name="q144" value="Réforme fiscale"> C) Réforme fiscale</label>
+        <label><input type="radio" name="q144" value="Développement de l'esclavage"> D) Développement de l'esclavage</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>145. Quel groupe social est favorisé par les empereurs au Bas-Empire ?</p>
+        <label><input type="radio" name="q145" value="Humiliores"> A) Humiliores</label>
+        <label><input type="radio" name="q145" value="Honestiores"> B) Honestiores</label>
+        <label><input type="radio" name="q145" value="Potens"> C) Potens</label>
+        <label><input type="radio" name="q145" value="Patriciens"> D) Patriciens</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>146. Quel moyen permet au débiteur de mettre à la charge du créancier la preuve du versement ?</p>
+        <label><input type="radio" name="q146" value="Exception de l'argent non compté"> A) Exception de l'argent non compté</label>
+        <label><input type="radio" name="q146" value="Retrait litigieux"> B) Retrait litigieux</label>
+        <label><input type="radio" name="q146" value="Rescision de la vente"> C) Rescision de la vente</label>
+        <label><input type="radio" name="q146" value="Hypothèque"> D) Hypothèque</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>147. Quel empereur introduit l'exception de l'argent non compté en 215 ?</p>
+        <label><input type="radio" name="q147" value="Caracalla"> A) Caracalla</label>
+        <label><input type="radio" name="q147" value="Sévère Alexandre"> B) Sévère Alexandre</label>
+        <label><input type="radio" name="q147" value="Dioclétien"> C) Dioclétien</label>
+        <label><input type="radio" name="q147" value="Justinien"> D) Justinien</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>148. Quel moyen lutte contre les spéculations sur les créances litigieuses ?</p>
+        <label><input type="radio" name="q148" value="Retrait litigieux"> A) Retrait litigieux</label>
+        <label><input type="radio" name="q148" value="Exception de l'argent non compté"> B) Exception de l'argent non compté</label>
+        <label><input type="radio" name="q148" value="Rescision de la vente"> C) Rescision de la vente</label>
+        <label><input type="radio" name="q148" value="Hypothèque"> D) Hypothèque</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>149. Quel empereur prohibe la cession de créances litigieuses aux honestiores ?</p>
+        <label><input type="radio" name="q149" value="Honorius et Théodose"> A) Honorius et Théodose</label>
+        <label><input type="radio" name="q149" value="Justinien"> B) Justinien</label>
+        <label><input type="radio" name="q149" value="Dioclétien"> C) Dioclétien</label>
+        <label><input type="radio" name="q149" value="Caracalla"> D) Caracalla</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>150. Quel moyen permet de rescinder la vente d'immeuble en cas de disproportion d'outre moitié ?</p>
+        <label><input type="radio" name="q150" value="Rescision de la vente d'immeuble"> A) Rescision de la vente d'immeuble</label>
+        <label><input type="radio" name="q150" value="Exception de l'argent non compté"> B) Exception de l'argent non compté</label>
+        <label><input type="radio" name="q150" value="Retrait litigieux"> C) Retrait litigieux</label>
+        <label><input type="radio" name="q150" value="Hypothèque"> D) Hypothèque</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>151. Quel rescrit attribué à Dioclétien permet la rescision en cas de lésion ?</p>
+        <label><input type="radio" name="q151" value="Rescrit de Dioclétien"> A) Rescrit de Dioclétien</label>
+        <label><input type="radio" name="q151" value="Loi Cornelia"> B) Loi Cornelia</label>
+        <label><input type="radio" name="q151" value="Édit d'Octavius"> C) Édit d'Octavius</label>
+        <label><input type="radio" name="q151" value="Édit d'Aquilius"> D) Édit d'Aquilius</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>152. Quel système coexiste à l'époque classique et au Bas-Empire pour les obligations délictuelles ?</p>
+        <label><input type="radio" name="q152" value="Actions pénales et rei persecutoria"> A) Actions pénales et rei persecutoria</label>
+        <label><input type="radio" name="q152" value="Actions in rem et in personam"> B) Actions in rem et in personam</label>
+        <label><input type="radio" name="q152" value="Actions de bonne foi et de mauvaise foi"> C) Actions de bonne foi et de mauvaise foi</label>
+        <label><input type="radio" name="q152" value="Actions consensuelles et réelles"> D) Actions consensuelles et réelles</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>153. Quel délit est réformé par la loi Cornelia de injuriis vers 80 av. J.-C. ?</p>
+        <label><input type="radio" name="q153" value="Injure"> A) Injure</label>
+        <label><input type="radio" name="q153" value="Rapina"> B) Rapina</label>
+        <label><input type="radio" name="q153" value="Dol"> C) Dol</label>
+        <label><input type="radio" name="q153" value="Fraus"> D) Fraus</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>154. Quel préteur introduit une action pénale pour les dommages causés aux biens en 76 av. J.-C. ?</p>
+        <label><input type="radio" name="q154" value="Terentius Lucullus"> A) Terentius Lucullus</label>
+        <label><input type="radio" name="q154" value="Octavius"> B) Octavius</label>
+        <label><input type="radio" name="q154" value="Aquilius Gallus"> C) Aquilius Gallus</label>
+        <label><input type="radio" name="q154" value="Cicéron"> D) Cicéron</label>
+        <div class="feedback"></div>
+    </div>
+
+    <div class="question">
+        <p>155. Quel délit vise les actes par lesquels un débiteur se rend insolvable ?</p>
+        <label><input type="radio" name="q155" value="Fraus creditorum"> A) Fraus creditorum</label>
+        <label><input type="radio" name="q155" value="Dol"> B) Dol</label>
+        <label><input type="radio" name="q155" value="Metus"> C) Metus</label>
+        <label><input type="radio" name="q155" value="Error"> D) Error</label>
+        <div class="feedback"></div>
+    </div>
+
+    <button id="floating-check" onclick="checkAnswers()">Vérifier mes réponses</button>
+    <div id="result-container">
+        <div id="result"></div>
+    </div>
+
+<script>
+    // Liste complète des bonnes réponses
+    const correctAnswers = {
+        q1: "13e siècle", q2: "Paulus", q3: "Dare", q4: "Mobilière", q5: "Praejudicium",
+        q6: "La glose des Institutes de Turin", q7: "Pierre de Fontaine", q8: "Le commerce", q9: "Chose incertaine",
+        q10: "Le droit des biens a un droit de suite", q11: "Action in personam pénale", q12: "Vente",
+        q13: "Gestion d'affaire", q14: "De la violence et de la réparation du dommage", q15: "Sponsio",
+        q16: "Justinien", q17: "Le Code", q18: "La Révolution industrielle", q19: "Arrêt Guissez-Tiffaine",
+        q20: "Décret sur l'héritage égal", q21: "Vengeance privée", q22: "Droit canonique", q23: "Aristote",
+        q24: "Pothier", q25: "Code civil français de 1804", q26: "Debitum", q27: "Le débiteur au créancier",
+        q28: "12e siècle", q29: "Pierre de Fontaine", q30: "Le crédit", q31: "Abstention",
+        q32: "Le droit des biens suit la chose", q33: "Action rei persecutoria", q34: "Mandat",
+        q35: "Gestion d'affaire", q36: "Dommage causé par la violence", q37: "Contrats consensuels comme la vente",
+        q38: "Justinien", q39: "Le Digeste", q40: "La Révolution industrielle", q41: "Arrêt Guissez-Tiffaine",
+        q42: "Décret sur l'héritage égal", q43: "Vengeance privée", q44: "Droit canonique", q45: "Aristote",
+        q46: "Domat", q47: "Code civil français de 1804", q48: "La Première Guerre mondiale", q49: "Damnum",
+        q50: "Lex Poetelia Papiria", // Question ajoutée
+        q51: "Vente", q52: "Gestion d'affaire", q53: "Le droit naturel", q54: "Le commerce",
+        q55: "Justinien", q56: "Les Institutes", q57: "La Révolution industrielle", q58: "Arrêt Guissez-Tiffaine",
+        q59: "Décret sur l'héritage égal", q60: "Vengeance privée", q61: "Droit canonique", q62: "Aristote",
+        q63: "Domat", q64: "Code civil français de 1804", q65: "La Première Guerre mondiale", q66: "Damnum",
+        q67: "Le passage à la richesse mobilière", q68: "Papinien", q69: "Le Digeste", q70: "Stoïcisme",
+        q71: "Auguste", q72: "Les Sabiniens", q73: "Les Institutes", q74: "Les guerres de conquête",
+        q75: "L'importation de blé", q76: "Dioclétien", q77: "Constantin 1er", q78: "Constantin 1er",
+        q79: "Euric", q80: "Gondebaud", q81: "Rotharis", q82: "Justinien", q83: "Le Code",
+        q84: "Les Institutes", q85: "Les Novelles", q86: "Théodose II", q87: "Un document consultatif sur une question de droit",
+        q88: "La perte de sources et la transmission difficile", q89: "Important, avec des pères comme Ambroise et St Jérôme",
+        q90: "La théologie et la conscience humaine", q91: "Hostilité à l'esclavage, droit d'asile, fin du pouvoir absolu",
+        q92: "Justice personnelle de l'empereur", q93: "Litiges portant atteinte à l'ordre public", q94: "Dioclétien",
+        q95: "Constantin 1er", q96: "Justice déléguée", q97: "Justice de l'évêque", q98: "Décret sur l'héritage égal",
+        q99: "Importation de blé", q100: "Guerres de conquête",
+        q101: "Code Théodosien", q102: "Euric", q103: "Gondebaud", q104: "Rotharis",
+        q105: "Bréviaire d'Alaric", q106: "Jean-François Lemarignier", q107: "Oui, plus qu'on ne le croit",
+        q108: "Affaire de château Landon", q109: "Pierre Abélard", q110: "Vacuité et léthargie",
+        q111: "Irnerius", q112: "Renovatio", q113: "Sécurité des rapports juridiques",
+        q114: "Florentine", q115: "Grégoire VII", q116: "Action de l'Église",
+        q117: "Montagnes suscitant la crainte", q118: "Croisade albigeoise", q119: "Petites gens du Nord",
+        q120: "Notaires", q121: "Blanche de Castille", q122: "Ordonnance de Montils-les-Tours",
+        q123: "Henri IV", q124: "Édit de Fontainebleau", q125: "Daguesseau",
+        q126: "Obligatio", q127: "Le Digeste", q128: "Paulus", q129: "12e siècle",
+        q130: "Pierre de Fontaine", q131: "Les biens du débiteur", q132: "Schuld et Haftung",
+        q133: "Schuld", q134: "Haftung", q135: "Sponsio", q136: "Vente",
+        q137: "Autonomie de la volonté", q138: "Expensilatio", q139: "Recul de l'agriculture et progression des activités commerciales",
+        q140: "Louage", q141: "Hypothèque", q142: "Hypothèque", q143: "Stellionat",
+        q144: "Disette, surproduction, poids des impôts, hausse des prix", q145: "Honestiores",
+        q146: "Exception de l'argent non compté", q147: "Caracalla", q148: "Retrait litigieux",
+        q149: "Honorius et Théodose", q150: "Rescision de la vente d'immeuble",
+        q151: "Rescrit de Dioclétien", q152: "Actions pénales et rei persecutoria",
+        q153: "Injure", q154: "Terentius Lucullus", q155: "Fraus creditorum"
+    };
+
+    function checkAnswers() {
+        let score = 0;
+        
+        // On récupère toutes les divs "question" présentes dans la page
+        const questionDivs = document.querySelectorAll('.question');
+        
+        questionDivs.forEach(div => {
+            // Trouver l'ID de la question basé sur le 'name' des inputs à l'intérieur
+            const input = div.querySelector('input[type="radio"]');
+            if (!input) return; // Sécurité si une div est vide
+            
+            const qId = input.name;
+            const correctAnswer = correctAnswers[qId];
+            
+            // Création ou récupération de la div feedback
+            let feedbackDiv = div.querySelector('.feedback');
+            if (!feedbackDiv) {
+                feedbackDiv = document.createElement('div');
+                feedbackDiv.className = 'feedback';
+                div.appendChild(feedbackDiv);
+            }
+            
+            // Reset du style (nettoyage des couleurs précédentes)
+            feedbackDiv.innerHTML = "";
+            div.querySelectorAll('label').forEach(el => {
+                 el.style.color = ""; 
+                 el.style.fontWeight = "normal";
+                 el.style.backgroundColor = "#f8f9fa";
+            });
+
+            // Vérification
+            const selected = div.querySelector(`input[name="${qId}"]:checked`);
+            
+            // Trouver l'input de la bonne réponse pour le mettre en évidence
+            const correctInput = div.querySelector(`input[name="${qId}"][value="${correctAnswer}"]`);
+            
+            // Colorer la bonne réponse en vert
+            if (correctInput) {
+                let correctContainer = correctInput.closest('label');
+                if (correctContainer) {
+                    correctContainer.style.color = "#155724";
+                    correctContainer.style.backgroundColor = "#d4edda";
+                    correctContainer.style.fontWeight = "bold";
+                    correctContainer.style.border = "1px solid #c3e6cb";
+                }
+            }
+
+            if (selected) {
+                if (selected.value === correctAnswer) {
+                    score++;
+                    feedbackDiv.innerHTML = "✅ Correct !";
+                    feedbackDiv.style.color = "#27ae60";
+                } else {
+                    feedbackDiv.innerHTML = `❌ Incorrect. La bonne réponse était : <strong>${correctAnswer}</strong>`;
+                    feedbackDiv.style.color = "#c0392b";
+                    
+                    // Colorer la mauvaise réponse en rouge
+                    let wrongContainer = selected.closest('label');
+                    if (wrongContainer) {
+                        wrongContainer.style.color = "#721c24";
+                        wrongContainer.style.backgroundColor = "#f8d7da";
+                        wrongContainer.style.border = "1px solid #f5c6cb";
+                    }
+                }
+            } else {
+                feedbackDiv.innerHTML = "⚠️ Aucune réponse sélectionnée.";
+                feedbackDiv.style.color = "#e67e22";
+            }
+        });
+
+        // Affichage du score
+        const resultDiv = document.getElementById("result");
+        const totalQuestionsInPage = questionDivs.length;
+        
+        resultDiv.innerHTML = `Votre score final : ${score} / ${totalQuestionsInPage}`;
+        
+        // Couleur du score final
+        if (score === totalQuestionsInPage) {
+            resultDiv.style.color = "#27ae60";
+            resultDiv.innerHTML += " 🏆 Excellent travail !";
+        } else if (score > totalQuestionsInPage / 2) {
+            resultDiv.style.color = "#d35400";
+        } else {
+            resultDiv.style.color = "#c0392b";
+        }
+
+        // Scroll vers le résultat
+        document.getElementById("result-container").scrollIntoView({behavior: "smooth"});
+    }
+</script>
+</body>
+</html>
