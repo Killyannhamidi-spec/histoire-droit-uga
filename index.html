@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QCM Interactif - Histoire du Droit des Obligations</title>
+    <title>QCM Interactif - Histoire du Droit</title>
     <style>
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -12,7 +12,7 @@
             line-height: 1.6; 
             background-color: #f4f4f9;
             color: #333;
-            padding-bottom: 80px; /* Espace pour le bouton flottant */
+            padding-bottom: 80px;
         }
         h1 {
             text-align: center;
@@ -34,6 +34,10 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.05);
             border-left: 5px solid #3498db;
         }
+        /* Style distinctif pour les nouvelles questions insérées */
+        .question.new-content {
+            border-left: 5px solid #27ae60;
+        }
         .question p {
             font-weight: bold;
             margin-top: 0;
@@ -54,15 +58,12 @@
         input[type="radio"] {
             margin-right: 10px;
         }
-        /* Styles pour le feedback */
         .feedback {
             margin-top: 10px;
             padding: 10px;
             border-radius: 4px;
             font-weight: bold;
         }
-        
-        /* Bouton fixe en bas */
         #floating-check {
             position: fixed;
             bottom: 20px;
@@ -83,7 +84,6 @@
             background-color: #219150;
             transform: scale(1.05);
         }
-        
         #result-container {
             text-align: center;
             margin-top: 30px;
@@ -97,9 +97,9 @@
 </head>
 <body>
 
-    <h1>QCM Interactif : Histoire du Droit des Obligations</h1>
+    <h1>QCM Interactif : Histoire du Droit</h1>
     <div class="intro">
-        <p>Répondez aux 155 questions ci-dessous. Cliquez sur le bouton vert flottant en bas à droite pour vérifier votre score à tout moment.</p>
+        <p>Répondez aux questions ci-dessous. Les questions 25 à 49 portent spécifiquement sur le <strong>Droit Romain Ancien</strong>.</p>
     </div>
 
     <div class="question">
@@ -318,240 +318,231 @@
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>25. Quel code civil, influencé par le droit romain, a été exporté dans plus de 200 pays ?</p>
-        <label><input type="radio" name="q25" value="Code civil français de 1804"> A) Code civil français de 1804</label>
-        <label><input type="radio" name="q25" value="Code civil allemand"> B) Code civil allemand</label>
-        <label><input type="radio" name="q25" value="Code civil italien"> C) Code civil italien</label>
-        <label><input type="radio" name="q25" value="Code civil britannique"> D) Code civil britannique</label>
+    <div class="question new-content">
+        <p>25. Quelle est la date légendaire de fondation de Rome selon Tite-Live ?</p>
+        <label><input type="radio" name="q25" value="509 av. J.-C."> A) 509 av. J.-C.</label>
+        <label><input type="radio" name="q25" value="753 av. J.-C."> B) 753 av. J.-C.</label>
+        <label><input type="radio" name="q25" value="616 av. J.-C."> C) 616 av. J.-C.</label>
+        <label><input type="radio" name="q25" value="146 av. J.-C."> D) 146 av. J.-C.</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>26. Quel terme romain désigne le devoir de transférer une propriété ou d'effectuer une action ?</p>
-        <label><input type="radio" name="q26" value="Debitum"> A) Debitum</label>
-        <label><input type="radio" name="q26" value="Obligatio"> B) Obligatio</label>
-        <label><input type="radio" name="q26" value="Damnum"> C) Damnum</label>
-        <label><input type="radio" name="q26" value="Praestare"> D) Praestare</label>
+    <div class="question new-content">
+        <p>26. Qui a renversé les rois étrusques à Rome en 509 av. J.-C. ?</p>
+        <label><input type="radio" name="q26" value="Les plébéiens"> A) Les plébéiens</label>
+        <label><input type="radio" name="q26" value="Les patriciens"> B) Les patriciens</label>
+        <label><input type="radio" name="q26" value="Les consuls"> C) Les consuls</label>
+        <label><input type="radio" name="q26" value="Les tribuns"> D) Les tribuns</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>27. Selon Ulpien, l'obligation est un lien juridique qui lie qui à qui ?</p>
-        <label><input type="radio" name="q27" value="Le créancier au débiteur"> A) Le créancier au débiteur</label>
-        <label><input type="radio" name="q27" value="Le débiteur au créancier"> B) Le débiteur au créancier</label>
-        <label><input type="radio" name="q27" value="Le juge au plaideur"> C) Le juge au plaideur</label>
-        <label><input type="radio" name="q27" value="Le propriétaire à l'esclave"> D) Le propriétaire à l'esclave</label>
+    <div class="question new-content">
+        <p>27. Quel roi étrusque a fait construire la Cloaca Maxima ?</p>
+        <label><input type="radio" name="q27" value="Tarquin le Superbe"> A) Tarquin le Superbe</label>
+        <label><input type="radio" name="q27" value="Servius Tullius"> B) Servius Tullius</label>
+        <label><input type="radio" name="q27" value="Tarquin l'Ancien"> C) Tarquin l'Ancien</label>
+        <label><input type="radio" name="q27" value="Romulus"> D) Romulus</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>28. Quel siècle voit l'apparition du terme "obligation" en français, selon les sources médiévales ?</p>
-        <label><input type="radio" name="q28" value="13e siècle"> A) 13e siècle</label>
-        <label><input type="radio" name="q28" value="12e siècle"> B) 12e siècle</label>
-        <label><input type="radio" name="q28" value="14e siècle"> C) 14e siècle</label>
-        <label><input type="radio" name="q28" value="15e siècle"> D) 15e siècle</label>
+    <div class="question new-content">
+        <p>28. Quand a été promulguée la Loi des 12 Tables ?</p>
+        <label><input type="radio" name="q28" value="753 av. J.-C."> A) 753 av. J.-C.</label>
+        <label><input type="radio" name="q28" value="509 av. J.-C."> B) 509 av. J.-C.</label>
+        <label><input type="radio" name="q28" value="450 av. J.-C."> C) 450 av. J.-C.</label>
+        <label><input type="radio" name="q28" value="146 av. J.-C."> D) 146 av. J.-C.</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>29. Quel auteur médiéval, mort en 1192, a écrit "Conseil à un ami" et influencé la définition de l'obligation ?</p>
-        <label><input type="radio" name="q29" value="Pierre de Fontaine"> A) Pierre de Fontaine</label>
-        <label><input type="radio" name="q29" value="Eugène Gaudemet"> B) Eugène Gaudemet</label>
-        <label><input type="radio" name="q29" value="Paul Frédérique Girard"> C) Paul Frédérique Girard</label>
-        <label><input type="radio" name="q29" value="Édouard Cuq"> D) Édouard Cuq</label>
+    <div class="question new-content">
+        <p>29. Quel est le rôle principal des tribuns de la plèbe ?</p>
+        <label><input type="radio" name="q29" value="Rendre la justice"> A) Rendre la justice</label>
+        <label><input type="radio" name="q29" value="Défendre les intérêts des plébéiens"> B) Défendre les intérêts des plébéiens</label>
+        <label><input type="radio" name="q29" value="Commander l'armée"> C) Commander l'armée</label>
+        <label><input type="radio" name="q29" value="Gérer les finances"> D) Gérer les finances</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>30. Selon Eugène Gaudemet, l'obligation est liée à quel concept économique principal ?</p>
-        <label><input type="radio" name="q30" value="Le crédit"> A) Le crédit</label>
-        <label><input type="radio" name="q30" value="La dette pénale"> B) La dette pénale</label>
-        <label><input type="radio" name="q30" value="La propriété immobilière"> C) La propriété immobilière</label>
-        <label><input type="radio" name="q30" value="L'héritage"> D) L'héritage</label>
+    <div class="question new-content">
+        <p>30. Quelle est la première phase de la procédure des actions de la loi ?</p>
+        <label><input type="radio" name="q30" value="Apud judicem"> A) Apud judicem</label>
+        <label><input type="radio" name="q30" value="In jure"> B) In jure</label>
+        <label><input type="radio" name="q30" value="Litis contestatio"> C) Litis contestatio</label>
+        <label><input type="radio" name="q30" value="Sentence finale"> D) Sentence finale</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>31. Quel type d'objet d'obligation implique une abstention, comme ne pas construire sur un terrain ?</p>
-        <label><input type="radio" name="q31" value="Abstention"> A) Abstention</label>
-        <label><input type="radio" name="q31" value="Chose certaine"> B) Chose certaine</label>
-        <label><input type="radio" name="q31" value="Somme d'argent"> C) Somme d'argent</label>
-        <label><input type="radio" name="q31" value="Action physique"> D) Action physique</label>
+    <div class="question new-content">
+        <p>31. Qui détient le pouvoir absolu dans la famille romaine archaïque ?</p>
+        <label><input type="radio" name="q31" value="La mère"> A) La mère</label>
+        <label><input type="radio" name="q31" value="Le Pater familias"> B) Le Pater familias</label>
+        <label><input type="radio" name="q31" value="Les enfants"> C) Les enfants</label>
+        <label><input type="radio" name="q31" value="Les esclaves"> D) Les esclaves</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>32. Quelle différence clé oppose le droit des obligations au droit des biens en termes de droit de suite ?</p>
-        <label><input type="radio" name="q32" value="Le droit des biens suit la chose"> A) Le droit des biens suit la chose</label>
-        <label><input type="radio" name="q32" value="Le droit des obligations suit la personne"> B) Le droit des obligations suit la personne</label>
-        <label><input type="radio" name="q32" value="Ils sont identiques"> C) Ils sont identiques</label>
-        <label><input type="radio" name="q32" value="Aucun n'a de droit de suite"> D) Aucun n'a de droit de suite</label>
+    <div class="question new-content">
+        <p>32. Que signifie "Patria potestas" ?</p>
+        <label><input type="radio" name="q32" value="Pouvoir sur les biens"> A) Pouvoir sur les biens</label>
+        <label><input type="radio" name="q32" value="Pouvoir absolu du père sur les enfants"> B) Pouvoir absolu du père sur les enfants</label>
+        <label><input type="radio" name="q32" value="Pouvoir sur les esclaves"> C) Pouvoir sur les esclaves</label>
+        <label><input type="radio" name="q32" value="Pouvoir politique"> D) Pouvoir politique</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>33. Quel type d'action romaine vise à récupérer une chose ou une somme d'argent ?</p>
-        <label><input type="radio" name="q33" value="Action rei persecutoria"> A) Action rei persecutoria</label>
-        <label><input type="radio" name="q33" value="Action in personam pénale"> B) Action in personam pénale</label>
-        <label><input type="radio" name="q33" value="Action in rem"> C) Action in rem</label>
-        <label><input type="radio" name="q33" value="Action de bonne foi"> D) Action de bonne foi</label>
+    <div class="question new-content">
+        <p>33. Quelle loi marque la transition vers le droit classique ?</p>
+        <label><input type="radio" name="q33" value="Loi des 12 Tables"> A) Loi des 12 Tables</label>
+        <label><input type="radio" name="q33" value="Loi Aebutia"> B) Loi Aebutia</label>
+        <label><input type="radio" name="q33" value="Loi de Solon"> C) Loi de Solon</label>
+        <label><input type="radio" name="q33" value="Loi de Lycurgue"> D) Loi de Lycurgue</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>34. Quel contrat romain est considéré comme une obligation naturelle, sans action en justice ?</p>
-        <label><input type="radio" name="q34" value="Commodat"> A) Commodat</label>
-        <label><input type="radio" name="q34" value="Vente"> B) Vente</label>
-        <label><input type="radio" name="q34" value="Mandat"> C) Mandat</label>
-        <label><input type="radio" name="q34" value="Dépôt"> D) Dépôt</label>
+    <div class="question new-content">
+        <p>34. Quand Rome passe-t-elle du droit archaïque au droit classique ?</p>
+        <label><input type="radio" name="q34" value="753 av. J.-C."> A) 753 av. J.-C.</label>
+        <label><input type="radio" name="q34" value="509 av. J.-C."> B) 509 av. J.-C.</label>
+        <label><input type="radio" name="q34" value="146 av. J.-C."> C) 146 av. J.-C.</label>
+        <label><input type="radio" name="q34" value="390 av. J.-C."> D) 390 av. J.-C.</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>35. Quel quasi-contrat romain implique une gestion d'affaire sans mandat, mais dans l'intérêt d'autrui ?</p>
-        <label><input type="radio" name="q35" value="Gestion d'affaire"> A) Gestion d'affaire</label>
-        <label><input type="radio" name="q35" value="Commodat"> B) Commodat</label>
-        <label><input type="radio" name="q35" value="Dépôt"> C) Dépôt</label>
-        <label><input type="radio" name="q35" value="Mandat"> D) Mandat</label>
+    <div class="question new-content">
+        <p>35. Quelle est l'origine des premiers rois de Rome ?</p>
+        <label><input type="radio" name="q35" value="Grecque"> A) Grecque</label>
+        <label><input type="radio" name="q35" value="Étrusque"> B) Étrusque</label>
+        <label><input type="radio" name="q35" value="Sabin"> C) Sabin</label>
+        <label><input type="radio" name="q35" value="Carthaginoise"> D) Carthaginoise</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>36. Selon l'école française, le droit des obligations naît principalement de la réparation de quel type de dommage ?</p>
-        <label><input type="radio" name="q36" value="Dommage causé par la violence"> A) Dommage causé par la violence</label>
-        <label><input type="radio" name="q36" value="Dommage commercial"> B) Dommage commercial</label>
-        <label><input type="radio" name="q36" value="Dommage naturel"> C) Dommage naturel</label>
-        <label><input type="radio" name="q36" value="Dommage immobilier"> D) Dommage immobilier</label>
+    <div class="question new-content">
+        <p>36. Quel roi a augmenté l'enceinte de Rome et imposé la tyrannie ?</p>
+        <label><input type="radio" name="q36" value="Tarquin l'Ancien"> A) Tarquin l'Ancien</label>
+        <label><input type="radio" name="q36" value="Servius Tullius"> B) Servius Tullius</label>
+        <label><input type="radio" name="q36" value="Tarquin le Superbe"> C) Tarquin le Superbe</label>
+        <label><input type="radio" name="q36" value="Romulus"> D) Romulus</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>37. Selon l'école italienne, le droit des obligations est lié au développement de quel type de contrat romain ?</p>
-        <label><input type="radio" name="q37" value="Contrats consensuels comme la vente"> A) Contrats consensuels comme la vente</label>
-        <label><input type="radio" name="q37" value="Contrats réels comme le dépôt"> B) Contrats réels comme le dépôt</label>
-        <label><input type="radio" name="q37" value="Contrats formels comme la sponsio"> C) Contrats formels comme la sponsio</label>
-        <label><input type="radio" name="q37" value="Contrats innommés"> D) Contrats innommés</label>
+    <div class="question new-content">
+        <p>37. Quel est le nom du pouvoir collégial instauré après la chute des rois ?</p>
+        <label><input type="radio" name="q37" value="Royauté"> A) Royauté</label>
+        <label><input type="radio" name="q37" value="République"> B) République</label>
+        <label><input type="radio" name="q37" value="Tyrannie"> C) Tyrannie</label>
+        <label><input type="radio" name="q37" value="Monarchie"> D) Monarchie</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>38. Quel empereur byzantin a compilé le Corpus Juris Civilis au 6e siècle ?</p>
-        <label><input type="radio" name="q38" value="Justinien"> A) Justinien</label>
-        <label><input type="radio" name="q38" value="Ulpien"> B) Ulpien</label>
-        <label><input type="radio" name="q38" value="Paulus"> C) Paulus</label>
-        <label><input type="radio" name="q38" value="Gaius"> D) Gaius</label>
+    <div class="question new-content">
+        <p>38. Qui sont les Patriciens ?</p>
+        <label><input type="radio" name="q38" value="Les esclaves"> A) Les esclaves</label>
+        <label><input type="radio" name="q38" value="Les familles aisées issues des Gentes"> B) Les familles aisées issues des Gentes</label>
+        <label><input type="radio" name="q38" value="Les étrangers"> C) Les étrangers</label>
+        <label><input type="radio" name="q38" value="Les plébéiens"> D) Les plébéiens</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>39. Quel ouvrage du Corpus Juris Civilis contient des extraits de jurisconsultes romains ?</p>
-        <label><input type="radio" name="q39" value="Le Digeste"> A) Le Digeste</label>
-        <label><input type="radio" name="q39" value="Le Code"> B) Le Code</label>
-        <label><input type="radio" name="q39" value="Les Institutes"> C) Les Institutes</label>
-        <label><input type="radio" name="q39" value="Les Novelles"> D) Les Novelles</label>
+    <div class="question new-content">
+        <p>39. Quel événement a conduit à la création des tribuns de la plèbe ?</p>
+        <label><input type="radio" name="q39" value="La prise de Carthage"> A) La prise de Carthage</label>
+        <label><input type="radio" name="q39" value="La sécession de la plèbe sur le Mont Sacré"> B) La sécession de la plèbe sur le Mont Sacré</label>
+        <label><input type="radio" name="q39" value="La loi Aebutia"> C) La loi Aebutia</label>
+        <label><input type="radio" name="q39" value="La destruction des 12 Tables"> D) La destruction des 12 Tables</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>40. Quel événement du 19e siècle a favorisé l'essor des titres négociables et des obligations mobilières ?</p>
-        <label><input type="radio" name="q40" value="La Révolution industrielle"> A) La Révolution industrielle</label>
-        <label><input type="radio" name="q40" value="La Révolution française"> B) La Révolution française</label>
-        <label><input type="radio" name="q40" value="La Première Guerre mondiale"> C) La Première Guerre mondiale</label>
-        <label><input type="radio" name="q40" value="La crise de 1929"> D) La crise de 1929</label>
+    <div class="question new-content">
+        <p>40. Combien de tribuns de la plèbe y avait-il en 471 av. J.-C. ?</p>
+        <label><input type="radio" name="q40" value="2"> A) 2</label>
+        <label><input type="radio" name="q40" value="4"> B) 4</label>
+        <label><input type="radio" name="q40" value="10"> C) 10</label>
+        <label><input type="radio" name="q40" value="12"> D) 12</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>41. Quel arrêt de la Cour de cassation française en 1896 a étendu la responsabilité du fait d'autrui ?</p>
-        <label><input type="radio" name="q41" value="Arrêt Guissez-Tiffaine"> A) Arrêt Guissez-Tiffaine</label>
-        <label><input type="radio" name="q41" value="Arrêt du 29 mars 1991"> B) Arrêt du 29 mars 1991</label>
-        <label><input type="radio" name="q41" value="Arrêt du 22 mai 1995"> C) Arrêt du 22 mai 1995</label>
-        <label><input type="radio" name="q41" value="Arrêt Courrières"> D) Arrêt Courrières</label>
+    <div class="question new-content">
+        <p>41. Quel historien grec a parlé de l'envoi de commissaires en Grèce pour les lois ?</p>
+        <label><input type="radio" name="q41" value="Tite-Live"> A) Tite-Live</label>
+        <label><input type="radio" name="q41" value="Denys d'Halicarnasse"> B) Denys d'Halicarnasse</label>
+        <label><input type="radio" name="q41" value="Cicéron"> C) Cicéron</label>
+        <label><input type="radio" name="q41" value="Pomponius"> D) Pomponius</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>42. Quel décret révolutionnaire de 1791 a conduit à la fragmentation des terres et à l'essor des obligations ?</p>
-        <label><input type="radio" name="q42" value="Décret sur l'héritage égal"> A) Décret sur l'héritage égal</label>
-        <label><input type="radio" name="q42" value="Décret sur la Révolution industrielle"> B) Décret sur la Révolution industrielle</label>
-        <label><input type="radio" name="q42" value="Décret sur le cadastre"> C) Décret sur le cadastre</label>
-        <label><input type="radio" name="q42" value="Décret sur la bourse"> D) Décret sur la bourse</label>
+    <div class="question new-content">
+        <p>42. Quel événement a détruit les 12 Tables en 390 av. J.-C. ?</p>
+        <label><input type="radio" name="q42" value="Un incendie"> A) Un incendie</label>
+        <label><input type="radio" name="q42" value="L'invasion gauloise"> B) L'invasion gauloise</label>
+        <label><input type="radio" name="q42" value="Une guerre civile"> C) Une guerre civile</label>
+        <label><input type="radio" name="q42" value="Un tremblement de terre"> D) Un tremblement de terre</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>43. Quel système primitif de justice, basé sur la vengeance, a été remplacé par le droit des obligations romain ?</p>
-        <label><input type="radio" name="q43" value="Vengeance privée"> A) Vengeance privée</label>
-        <label><input type="radio" name="q43" value="Tarifs orientaux"> B) Tarifs orientaux</label>
-        <label><input type="radio" name="q43" value="Droit naturel"> C) Droit naturel</label>
-        <label><input type="radio" name="q43" value="Droit canonique"> D) Droit canonique</label>
+    <div class="question new-content">
+        <p>43. Quel magistrat a été créé en -367 av. J.-C. pour rendre la justice ?</p>
+        <label><input type="radio" name="q43" value="Le consul"> A) Le consul</label>
+        <label><input type="radio" name="q43" value="Le prêteur urbain"> B) Le prêteur urbain</label>
+        <label><input type="radio" name="q43" value="Le tribun"> C) Le tribun</label>
+        <label><input type="radio" name="q43" value="Le sénateur"> D) Le sénateur</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>44. Quel droit médiéval a introduit la théorie des vices du consentement au 11e siècle ?</p>
-        <label><input type="radio" name="q44" value="Droit canonique"> A) Droit canonique</label>
-        <label><input type="radio" name="q44" value="Droit romain"> B) Droit romain</label>
-        <label><input type="radio" name="q44" value="Droit naturel"> C) Droit naturel</label>
-        <label><input type="radio" name="q44" value="Droit anglo-saxon"> D) Droit anglo-saxon</label>
+    <div class="question new-content">
+        <p>44. Quel est le rôle du prêteur pérégrin créé en -242 av. J.-C. ?</p>
+        <label><input type="radio" name="q44" value="Juger les citoyens romains"> A) Juger les citoyens romains</label>
+        <label><input type="radio" name="q44" value="Connaître les droits des étrangers"> B) Connaître les droits des étrangers</label>
+        <label><input type="radio" name="q44" value="Gérer les finances"> C) Gérer les finances</label>
+        <label><input type="radio" name="q44" value="Commander l'armée"> D) Commander l'armée</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>45. Quel philosophe grec a développé le concept de synallagma (réciprocité contractuelle) dans son ouvrage "Éthique à Nicomaque" ?</p>
-        <label><input type="radio" name="q45" value="Aristote"> A) Aristote</label>
-        <label><input type="radio" name="q45" value="Platon"> B) Platon</label>
-        <label><input type="radio" name="q45" value="Socrate"> C) Socrate</label>
-        <label><input type="radio" name="q45" value="Épicure"> D) Épicure</label>
+    <div class="question new-content">
+        <p>45. Quelle est la deuxième phase du procès romain archaïque ?</p>
+        <label><input type="radio" name="q45" value="In jure"> A) In jure</label>
+        <label><input type="radio" name="q45" value="Apud judicem"> B) Apud judicem</label>
+        <label><input type="radio" name="q45" value="Litis contestatio"> C) Litis contestatio</label>
+        <label><input type="radio" name="q45" value="Sentence"> D) Sentence</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>46. Quel juriste du 17e siècle a réalisé une synthèse du droit romain, canonique et naturel ?</p>
-        <label><input type="radio" name="q46" value="Domat"> A) Domat</label>
-        <label><input type="radio" name="q46" value="Pothier"> B) Pothier</label>
-        <label><input type="radio" name="q46" value="Girard"> C) Girard</label>
-        <label><input type="radio" name="q46" value="Cuq"> D) Cuq</label>
+    <div class="question new-content">
+        <p>46. Quel est le nom de la structure familiale romaine archaïque ?</p>
+        <label><input type="radio" name="q46" value="La gens"> A) La gens</label>
+        <label><input type="radio" name="q46" value="La domus"> B) La domus</label>
+        <label><input type="radio" name="q46" value="La tribu"> C) La tribu</label>
+        <label><input type="radio" name="q46" value="La centurie"> D) La centurie</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>47. Quel code civil européen, influencé par le droit romain, a été adopté dans plus de 200 pays ?</p>
-        <label><input type="radio" name="q47" value="Code civil français de 1804"> A) Code civil français de 1804</label>
-        <label><input type="radio" name="q47" value="Code civil allemand"> B) Code civil allemand</label>
-        <label><input type="radio" name="q47" value="Code civil italien"> C) Code civil italien</label>
-        <label><input type="radio" name="q47" value="Code civil britannique"> D) Code civil britannique</label>
+    <div class="question new-content">
+        <p>47. Que représente la première pièce de monnaie romaine ?</p>
+        <label><input type="radio" name="q47" value="Une tête de bétail"> A) Une tête de bétail</label>
+        <label><input type="radio" name="q47" value="Un soldat"> B) Un soldat</label>
+        <label><input type="radio" name="q47" value="Un roi"> C) Un roi</label>
+        <label><input type="radio" name="q47" value="Une balance"> D) Une balance</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>48. Quel événement historique a conduit à un projet de code des obligations commun entre la France et l'Italie en 1927 ?</p>
-        <label><input type="radio" name="q48" value="La Première Guerre mondiale"> A) La Première Guerre mondiale</label>
-        <label><input type="radio" name="q48" value="La Révolution française"> B) La Révolution française</label>
-        <label><input type="radio" name="q48" value="La Révolution industrielle"> C) La Révolution industrielle</label>
-        <label><input type="radio" name="q48" value="La crise de 1929"> D) La crise de 1929</label>
+    <div class="question new-content">
+        <p>48. Quel pouvoir le Pater familias exerce-t-il sur les esclaves ?</p>
+        <label><input type="radio" name="q48" value="Dominica potestas"> A) Dominica potestas</label>
+        <label><input type="radio" name="q48" value="Patria potestas"> B) Patria potestas</label>
+        <label><input type="radio" name="q48" value="Imperium"> C) Imperium</label>
+        <label><input type="radio" name="q48" value="Jus gentium"> D) Jus gentium</label>
         <div class="feedback"></div>
     </div>
 
-    <div class="question">
-        <p>49. Quel terme romain désigne l'évaluation préalable en argent du dommage ?</p>
-        <label><input type="radio" name="q49" value="Praejudicium"> A) Praejudicium</label>
-        <label><input type="radio" name="q49" value="Damnum"> B) Damnum</label>
-        <label><input type="radio" name="q49" value="Debitum"> C) Debitum</label>
-        <label><input type="radio" name="q49" value="Ligare"> D) Ligare</label>
+    <div class="question new-content">
+        <p>49. Quel facteur a contribué à la transformation du droit archaïque ?</p>
+        <label><input type="radio" name="q49" value="La guerre civile"> A) La guerre civile</label>
+        <label><input type="radio" name="q49" value="Le commerce international"> B) Le commerce international</label>
+        <label><input type="radio" name="q49" value="L'invasion gauloise"> C) L'invasion gauloise</label>
+        <label><input type="radio" name="q49" value="La loi des 12 Tables"> D) La loi des 12 Tables</label>
         <div class="feedback"></div>
     </div>
-
-    <div class="question">
-        <p>50. Quelle loi romaine de -326 a aboli le Nexum (l'emprisonnement pour dettes) ?</p>
-        <label><input type="radio" name="q50" value="Lex Poetelia Papiria"> A) Lex Poetelia Papiria</label>
-        <label><input type="radio" name="q50" value="Lex Aquilia"> B) Lex Aquilia</label>
-        <label><input type="radio" name="q50" value="Loi des XII Tables"> C) Loi des XII Tables</label>
-        <label><input type="radio" name="q50" value="Lex Hortensia"> D) Lex Hortensia</label>
-        <div class="feedback"></div>
-    </div>
-
+    
     <div class="question">
         <p>51. Quel contrat romain est un contrat consensuel parfait, impliquant un échange de choses contre argent ?</p>
         <label><input type="radio" name="q51" value="Vente"> A) Vente</label>
@@ -1502,7 +1493,7 @@
     </div>
 
 <script>
-    // Liste complète des bonnes réponses
+    // Liste complète des bonnes réponses (mise à jour avec les nouvelles questions 25-49)
     const correctAnswers = {
         q1: "13e siècle", q2: "Paulus", q3: "Dare", q4: "Mobilière", q5: "Praejudicium",
         q6: "La glose des Institutes de Turin", q7: "Pierre de Fontaine", q8: "Le commerce", q9: "Chose incertaine",
@@ -1510,14 +1501,37 @@
         q13: "Gestion d'affaire", q14: "De la violence et de la réparation du dommage", q15: "Sponsio",
         q16: "Justinien", q17: "Le Code", q18: "La Révolution industrielle", q19: "Arrêt Guissez-Tiffaine",
         q20: "Décret sur l'héritage égal", q21: "Vengeance privée", q22: "Droit canonique", q23: "Aristote",
-        q24: "Pothier", q25: "Code civil français de 1804", q26: "Debitum", q27: "Le débiteur au créancier",
-        q28: "12e siècle", q29: "Pierre de Fontaine", q30: "Le crédit", q31: "Abstention",
-        q32: "Le droit des biens suit la chose", q33: "Action rei persecutoria", q34: "Mandat",
-        q35: "Gestion d'affaire", q36: "Dommage causé par la violence", q37: "Contrats consensuels comme la vente",
-        q38: "Justinien", q39: "Le Digeste", q40: "La Révolution industrielle", q41: "Arrêt Guissez-Tiffaine",
-        q42: "Décret sur l'héritage égal", q43: "Vengeance privée", q44: "Droit canonique", q45: "Aristote",
-        q46: "Domat", q47: "Code civil français de 1804", q48: "La Première Guerre mondiale", q49: "Damnum",
-        q50: "Lex Poetelia Papiria", // Question ajoutée
+        q24: "Pothier",
+        
+        // --- NOUVELLES RÉPONSES POUR LA PLAGE 25-49 ---
+        q25: "753 av. J.-C.",
+        q26: "Les patriciens",
+        q27: "Tarquin l'Ancien",
+        q28: "450 av. J.-C.",
+        q29: "Défendre les intérêts des plébéiens",
+        q30: "In jure",
+        q31: "Le Pater familias",
+        q32: "Pouvoir absolu du père sur les enfants",
+        q33: "Loi Aebutia", // Marque la transition vers le formulaire
+        q34: "146 av. J.-C.", // Fin des guerres puniques, fin de la période archaïque
+        q35: "Étrusque",
+        q36: "Servius Tullius",
+        q37: "République",
+        q38: "Les familles aisées issues des Gentes",
+        q39: "La sécession de la plèbe sur le Mont Sacré",
+        q40: "4", // Note: Varie selon les sources (2, puis 5), mais 4 est la réponse attendue dans ce contexte de code
+        q41: "Denys d'Halicarnasse",
+        q42: "L'invasion gauloise",
+        q43: "Le prêteur urbain",
+        q44: "Connaître les droits des étrangers",
+        q45: "Apud judicem",
+        q46: "La domus",
+        q47: "Une tête de bétail",
+        q48: "Dominica potestas",
+        q49: "Le commerce international",
+        // --- FIN DES NOUVELLES RÉPONSES ---
+
+        // Reprise des anciennes réponses (Note: l'ancienne q50 est supprimée)
         q51: "Vente", q52: "Gestion d'affaire", q53: "Le droit naturel", q54: "Le commerce",
         q55: "Justinien", q56: "Les Institutes", q57: "La Révolution industrielle", q58: "Arrêt Guissez-Tiffaine",
         q59: "Décret sur l'héritage égal", q60: "Vengeance privée", q61: "Droit canonique", q62: "Aristote",
@@ -1580,6 +1594,7 @@
                  el.style.color = ""; 
                  el.style.fontWeight = "normal";
                  el.style.backgroundColor = "#f8f9fa";
+                 el.style.border = "none";
             });
 
             // Vérification
